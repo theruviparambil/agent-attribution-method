@@ -109,7 +109,7 @@ We scanned all **746 repositories** in the corpus for `AGENTS.md`, `CONTRIBUTING
 about AI attribution, human accountability and agent-authored pull requests. Reported by segment, since the two
 are not comparable.
 
-| | Fintech (424 repos, 16 orgs) | AI vendors (322 repos, 4 orgs) |
+| | Fintech (407 repos, 15 orgs) | AI vendors (322 repos, 4 orgs) |
 |---|---|---|
 | Has an `AGENTS.md` | 32 | 15 |
 | Mentions AI, LLM or agent in a policy file | 6 | 0 |
@@ -165,10 +165,15 @@ Written policy, even with a sanction, is not.**
   CODEOWNERS convention would be missed. The zero should be read as "no policy in the conventional locations",
   not "no policy anywhere".
 - DCO presence is measured from commit messages, not from whether the check actually blocked anything.
-- **Correction, 25 Aug:** an earlier version of this section reported 55 `AGENTS.md`, 9 AI mentions and zero
-  human-accountability rules. Two scanner processes had overlapped and duplicated rows. Deduplicated, the
-  figures are 47, 6 and 1. The headline finding, that no repository requires an attribution trailer, is
-  unchanged. `policy.jsonl` in this repo is the deduplicated output.
+- **Correction, 25 Aug (i):** an earlier version of this section reported 55 `AGENTS.md`, 9 AI mentions and
+  zero human-accountability rules. Two scanner processes had overlapped and duplicated rows. Deduplicated, the
+  figures are 47, 6 and 1. `policy.jsonl` in this repo is the deduplicated output.
+- **Correction, 25 Aug (ii):** the fintech policy-scan denominator was published as 424 repositories across 16
+  organisations. That count still included 17 repositories from an organisation excluded from the pull-request
+  measurement earlier for an identity collision: its name resembles a US fintech but it is an unrelated company
+  in a different country and industry. It was removed from one denominator and left in the other. Corrected to
+  **407 repositories across 15 organisations**, which now matches the corpus used for the PR measurement.
+- Neither correction changes the headline: **no repository in either segment requires an attribution trailer.**
 
 ---
 
