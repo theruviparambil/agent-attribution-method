@@ -98,6 +98,74 @@ measurement independently of how much agent code is actually written.
 
 ---
 
+## Follow-up: does written policy produce disclosure?
+
+The range above shows disclosure varies. It does not show why. This section measures the mechanism.
+
+### Do these organisations have an attribution policy at all?
+
+We scanned all **746 repositories** in the corpus for `AGENTS.md`, `CONTRIBUTING.md`,
+`.github/CONTRIBUTING.md`, `CLAUDE.md` and `.github/copilot-instructions.md`, and pattern-matched for rules
+about AI attribution, human accountability and agent-authored pull requests.
+
+| | Repos | % |
+|---|---|---|
+| Has an `AGENTS.md` | 55 | 7.4% |
+| Mentions AI, LLM or agent in a policy file | 9 | 1.2% |
+| **Requires an attribution trailer** | **0** | **0.0%** |
+| Requires human accountability for AI-assisted work | 0 | 0.0% |
+| Prohibits pure agent-authored pull requests | 0 | 0.0% |
+
+Zero. The nine that mention AI are agent *instruction* files, telling an agent how to work in the repository,
+not governance rules about disclosure.
+
+So the low disclosure rates in this corpus are not non-compliance. **There is nothing to comply with.**
+
+### Where a policy does exist: NVIDIA/garak
+
+`NVIDIA/garak`, an open-source LLM vulnerability scanner (9,023 stars), publishes an `AGENTS.md` that applies
+"to **all** AI-assisted contributions", states that "pure code-agent PRs are **not allowed**" and that "a human
+submitter must understand and defend the change end-to-end", and warns that "breaching these guidelines can
+result in automatic banning". It gives literal trailer examples including `Co-authored-by: Claude`.
+
+Measured across its **300 most recent merged pull requests**:
+
+| Trailer | Mechanism | Present |
+|---|---|---|
+| AI attribution (`Co-authored-by: <agent>`) | written policy, ban threat, **no gate** | **26 / 300 = 8.7%** |
+| `Signed-off-by` (DCO) | **bot-checked before merge** | **219 / 300 = 73.0%** |
+
+Same repository. Same contributors. Same period. The only difference is that one is enforced at the merge gate
+and the other is a written rule with a sanction attached.
+
+Monthly, the AI trailer shows a policy landing and then decaying: 0.0% through March 2026, then 8.3%, 6.5%,
+11.5%, a spike to 51.9% in July, and 21.1% in August.
+
+### The ladder
+
+| Corpus | Policy | Enforced at a gate | Disclosure |
+|---|---|---|---|
+| Linux kernel, `Signed-off-by` | yes | yes | **99.8%** |
+| NVIDIA/garak, DCO | yes | yes (bot) | **73.0%** |
+| NVIDIA/garak, AI attribution | yes, with ban threat | no | **8.7%** |
+| Linux kernel, `Assisted-by` | requested | no | **0.64%** |
+| This corpus, 746 repos | **none exists** | no | 0% to 41% |
+
+Two independent corpora, one mechanism. **Enforcement at the gate is the variable that moves disclosure.
+Written policy, even with a sanction, is not.**
+
+### Limits on this section
+
+- garak is a single repository and its subject is AI security, so its contributors are unusually likely to be
+  thinking about AI provenance. It is a favourable case for policy, not a random one, which makes the 8.7%
+  more striking rather than less.
+- The policy scan is pattern-matching over five filenames. A rule stated in a wiki, a PR template or a
+  CODEOWNERS convention would be missed. The zero should be read as "no policy in the conventional locations",
+  not "no policy anywhere".
+- DCO presence is measured from commit messages, not from whether the check actually blocked anything.
+
+---
+
 ## Limits, stated plainly
 
 1. **This is a floor on disclosure, not an estimate of usage.** Every trailer is opt-in and removable with one
