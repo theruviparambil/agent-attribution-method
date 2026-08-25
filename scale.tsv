@@ -1,731 +1,731 @@
-repo	sector	stars	has_policy	policy_files	requires_trailer	mentions_ai	prs_sampled	ai_trailer_prs	dco_prs
-EleutherAI/bergson	aivendor	73	1	CLAUDE.md	0	0	100	58	0
-EleutherAI/delphi	aivendor	275	0		0	0	100	0	1
-EleutherAI/elk	aivendor	224	0		0	0	100	0	0
-EleutherAI/lm-evaluation-harness	aivendor	13777	0		0	0	100	11	0
-EleutherAI/metasmoothness	aivendor	0	0		0	0	1	0	0
-EleutherAI/sparsify	aivendor	737	0		0	0	79	1	0
-Stability-AI/Awesome-Stable-Audio	aivendor	34	0		0	0	4	0	0
-Stability-AI/ReLi3D	aivendor	71	0		0	0	0	0	0
-Stability-AI/Stable-Layers	aivendor	14	0		0	0	0	0	0
-Stability-AI/stable-audio-3	aivendor	691	0		0	0	57	14	9
-Stability-AI/stable-audio-metrics	aivendor	301	0		0	0	0	0	0
-Stability-AI/stable-audio-tools	aivendor	3847	0		0	0	52	1	0
-Stability-AI/stable-codec	aivendor	444	0		0	0	2	0	0
-Weights-Biases/.github	aivendor	0	0		0	0	0	0	0
-allenai/EMO	aivendor	49	1	CLAUDE.md	0	1	31	6	0
-allenai/OLMo-core	aivendor	1488	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	69	0
-allenai/dolma	aivendor	1537	0		0	0	100	1	7
-allenai/olmo-eval	aivendor	67	1	CLAUDE.md	0	0	100	27	8
-allenai/olmoearth_pretrain	aivendor	299	0		0	0	100	11	0
-allenai/open-instruct	aivendor	3848	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	79	0
-allenai/rslearn_projects	aivendor	24	0		0	0	100	8	0
-allenai/sinonym	aivendor	5	0		0	0	26	2	0
-anthropics/anthropic-cli	aivendor	622	1	CONTRIBUTING.md	0	0	48	2	0
-anthropics/anthropic-sdk-csharp	aivendor	318	1	CONTRIBUTING.md	0	0	100	18	0
-anthropics/anthropic-sdk-python	aivendor	3849	1	CONTRIBUTING.md	0	0	100	10	0
-anthropics/claude-agent-sdk-python	aivendor	7967	1	CLAUDE.md	0	0	100	13	0
-anthropics/claude-agent-sdk-typescript	aivendor	1719	0		0	0	15	3	0
-anthropics/claude-code	aivendor	142914	0		0	0	100	29	0
-anthropics/claude-code-action	aivendor	8713	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	19	5
-anthropics/claude-code-base-action	aivendor	956	1	CLAUDE.md;CONTRIBUTING.md	0	0	54	18	0
-cohere-ai/cohere-developer-experience	aivendor	114	0		0	0	100	2	12
-cohere-ai/cohere-typescript	aivendor	171	1	CONTRIBUTING.md	0	0	100	3	2
-cohere-ai/cvm-measure	aivendor	0	1	CONTRIBUTING.md	0	0	10	2	3
-cohere-ai/integritee	aivendor	0	0		0	0	28	14	4
-cohere-ai/melody	aivendor	1	0		0	0	100	3	12
-cursor/community-plugins	aivendor	3980	1	AGENTS.md	0	0	100	22	0
-cursor/cookbook	aivendor	4058	0		0	0	6	4	0
-cursor/cursor	aivendor	33170	0		0	0	49	0	0
-cursor/minisqlite	aivendor	272	0		0	0	0	0	0
-cursor/mixture-of-kittens	aivendor	569	1	CONTRIBUTING.md	0	0	1	0	1
-cursor/plugins	aivendor	5034	0		0	0	100	21	0
-cursor/sdk-bridge	aivendor	74	0		0	0	0	0	0
-cursor/terraform-provider-cursor	aivendor	11	0		0	0	8	5	2
-explosion/curated-tokenizers	aivendor	12	0		0	0	55	0	0
-explosion/cython-blis	aivendor	238	0		0	0	95	3	1
-explosion/ellf-terraform-cluster	aivendor	1	0		0	0	0	0	0
-explosion/fastapi-explosion-extras	aivendor	2	0		0	0	1	0	0
-explosion/gha-cibuildwheel	aivendor	0	0		0	0	1	0	0
-explosion/radicli	aivendor	110	0		0	0	31	0	0
-explosion/sense2vec	aivendor	1679	0		0	0	39	0	0
-explosion/spaCy	aivendor	33841	1	CONTRIBUTING.md	0	0	100	0	0
-ggml-org/Llama-Windows	aivendor	18	0		0	0	46	0	0
-ggml-org/convert	aivendor	23	0		0	0	22	9	0
-ggml-org/llama-install.sh	aivendor	29	0		0	0	84	0	79
-ggml-org/llama.brand	aivendor	4	0		0	0	1	0	0
-ggml-org/llama.cpp	aivendor	125501	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	1	1	100	20	3
-ggml-org/llama.cpp-dev	aivendor	6	0		0	0	2	2	0
-ggml-org/llama.vim	aivendor	2149	0		0	0	73	6	2
-ggml-org/whisper.cpp	aivendor	53154	1	AGENTS.md;CONTRIBUTING.md	0	1	100	11	12
-huggingface/diffusers	aivendor	34373	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	19	4
-huggingface/huggingface.js	aivendor	2499	1	CONTRIBUTING.md	0	0	100	19	0
-huggingface/kernels	aivendor	725	1	CONTRIBUTING.md	0	1	100	7	8
-huggingface/kernels-community	aivendor	141	1	AGENTS.md;CONTRIBUTING.md	0	0	100	7	12
-huggingface/lerobot	aivendor	26897	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	20	6
-huggingface/tokenizers	aivendor	10993	1	CONTRIBUTING.md	0	0	100	13	20
-huggingface/transformers	aivendor	164414	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	35	7
-huggingface/trl	aivendor	19147	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	6	1
-langchain-ai/chat-langchain	aivendor	6441	0		0	0	100	6	7
-langchain-ai/deepagents	aivendor	28402	1	AGENTS.md	0	1	100	0	7
-langchain-ai/docs	aivendor	398	1	.github/CONTRIBUTING.md;.github/copilot-instructions.md;AGENTS.md;CLAUDE.md	0	0	100	17	0
-langchain-ai/langchain	aivendor	144931	1	AGENTS.md;CLAUDE.md	0	0	100	4	11
-langchain-ai/langchain-aws	aivendor	343	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0	1	100	3	6
-langchain-ai/open-swe	aivendor	10612	1	AGENTS.md;CLAUDE.md	0	1	100	4	0
-langchain-ai/openwiki	aivendor	15577	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	12	5
-langchain-ai/terraform	aivendor	16	1	AGENTS.md	0	0	100	19	0
-mistralai/client-python	aivendor	762	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	0	0
-mistralai/client-ts	aivendor	155	1	CONTRIBUTING.md	0	0	100	1	0
-mistralai/cookbook	aivendor	2313	0		0	0	100	1	0
-mistralai/mistral-common	aivendor	934	1	AGENTS.md	0	0	100	0	3
-mistralai/platform-docs-public	aivendor	72	1	CLAUDE.md	0	0	100	5	0
-mistralai/search-starter-app	aivendor	27	0		0	0	17	10	0
-mistralai/workflows-starter-app	aivendor	32	0		0	0	19	1	0
-modal-labs/credential-injection	aivendor	8	0		0	0	2	0	0
-modal-labs/modal-client	aivendor	509	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0	0	0	0	0
-modal-labs/modal-examples	aivendor	1260	1	AGENTS.md;CLAUDE.md	0	0	100	14	0
-modal-labs/synchronicity	aivendor	144	0		0	0	100	0	2
-openai/codex	aivendor	117450	1	AGENTS.md	0	0	100	0	0
-openai/codex-security	aivendor	10150	1	AGENTS.md;CONTRIBUTING.md	0	0	100	2	0
-openai/homebrew-tools	aivendor	15	0		0	0	43	0	0
-openai/openai-agents-python	aivendor	28940	1	AGENTS.md;CLAUDE.md	0	0	100	0	0
-openai/openai-go	aivendor	3428	1	AGENTS.md;CONTRIBUTING.md	0	0	100	0	8
-openai/openai-java	aivendor	1511	1	AGENTS.md;CONTRIBUTING.md	0	0	100	0	6
-openai/openai-ruby	aivendor	451	1	AGENTS.md;CONTRIBUTING.md	0	0	100	0	6
-openai/tart	aivendor	6579	1	CONTRIBUTING.md	0	0	100	5	1
-replicate/cog	aivendor	9460	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	1	24
-replicate/cog-flux-schnell	aivendor	74	0		0	0	0	0	0
-replicate/homebrew-tap	aivendor	1	0		0	0	35	0	2
-replicate/pget	aivendor	151	1	CONTRIBUTING.md	0	0	100	0	39
-replicate/replicate-python-beta	aivendor	3	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	78	1	0
-replicate/setup-replicate	aivendor	2	1	CONTRIBUTING.md	0	0	0	0	0
-replicate/skills	aivendor	55	1	AGENTS.md	0	0	6	0	0
-run-llama/liteparse	aivendor	12168	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	7	0
-run-llama/llama-parse-csharp	aivendor	0	1	CONTRIBUTING.md	0	0	6	0	0
-run-llama/llama_index	aivendor	51856	1	CONTRIBUTING.md	0	1	100	3	5
-run-llama/llamacloud-admin-go	aivendor	0	1	CONTRIBUTING.md	0	0	0	0	0
-run-llama/llamacloud-admin-java	aivendor	0	0		0	0	0	0	0
-run-llama/llamacloud-admin-python	aivendor	0	1	CONTRIBUTING.md	0	0	0	0	0
-run-llama/llamacloud-admin-typescript	aivendor	0	1	CONTRIBUTING.md	0	0	0	0	0
-sourcegraph/cloud-artifacts	aivendor	2	0		0	0	0	0	0
-sourcegraph/deploy-sourcegraph-docker	aivendor	165	0		0	0	100	0	0
-sourcegraph/deploy-sourcegraph-helm	aivendor	18	1	AGENTS.md;CLAUDE.md	0	0	100	9	0
-sourcegraph/deploy-sourcegraph-k8s	aivendor	15	0		0	0	100	0	0
-sourcegraph/docs	aivendor	171	1	AGENTS.md	0	0	100	10	1
-sourcegraph/jsonrpc2	aivendor	253	0		0	0	58	0	13
-sourcegraph/sg	aivendor	28	0		0	0	2	0	0
-sourcegraph/smoke-tests	aivendor	9	0		0	0	21	0	0
-wandb/docs	aivendor	24	1	AGENTS.md;CONTRIBUTING.md	0	1	100	20	13
-wandb/helm-charts	aivendor	25	1	AGENTS.md;CLAUDE.md	0	0	100	13	0
-wandb/operator	aivendor	10	1	CLAUDE.md	0	0	100	28	8
-wandb/senpai	aivendor	31	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	3	6
-wandb/terraform-azurerm-wandb	aivendor	5	0		0	0	100	0	0
-wandb/wandb	aivendor	11239	1	CONTRIBUTING.md	0	0	100	2	0
-wandb/wandb-workspaces	aivendor	28	1	CONTRIBUTING.md	0	0	100	6	3
-wandb/weave	aivendor	1121	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	18	0
-DataDog/code-review-action	bigtech	2	1	CONTRIBUTING.md	0	0	30	1	0
-DataDog/datadog-agent	bigtech	3712	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	10	0
-DataDog/datadog-agent-buildimages	bigtech	17	0		0	0	100	3	1
-DataDog/dd-sdk-android	bigtech	227	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	9	0
-DataDog/dd-trace-php	bigtech	558	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	10	7
-DataDog/dd-trace-py	bigtech	648	1	AGENTS.md	0	1	100	19	7
-DataDog/dd-trace-rb	bigtech	415	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	10	4
-DataDog/java-profiler	bigtech	33	1	AGENTS.md	0	1	100	37	31
-DataDog/sdlc-gitops-sample-stack	bigtech	12	1	CONTRIBUTING.md	0	0	24	0	0
-DataDog/terraform-aws-ecs-datadog	bigtech	7	0		0	0	61	1	0
-IBM/SovereignCore	bigtech	2	0		0	0	17	0	12
-IBM/cloud-pak	bigtech	148	0		0	0	100	0	26
-IBM/cloud-pak-deployer	bigtech	162	0		0	0	100	0	63
-IBM/event-notifications-go-admin-sdk	bigtech	2	1	CONTRIBUTING.md	0	0	77	0	45
-IBM/ibm-storage-odf-operator	bigtech	5	0		0	0	100	0	93
-IBM/ibm-vpc-file-csi-driver	bigtech	4	0		0	0	100	0	76
-IBM/ibmcloud-object-storage-plugin	bigtech	56	0		0	0	100	0	6
-IBM/project-ai-services	bigtech	56	1	CONTRIBUTING.md	0	0	100	0	100
-NVIDIA/Megatron-LM	bigtech	17574	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	12	100
-NVIDIA/Model-Optimizer	bigtech	3477	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	31	98
-NVIDIA/NVSentinel	bigtech	375	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	14	65
-NVIDIA/NemoClaw	bigtech	22266	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	10	90
-NVIDIA/TensorRT-LLM	bigtech	14470	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	6	100
-NVIDIA/cuda-quantum	bigtech	1118	0		0	0	100	5	100
-NVIDIA/cudf-spark	bigtech	997	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0	0	100	2	99
-NVIDIA/cudnn-frontend	bigtech	915	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	45	11
-NVIDIA/cuopt	bigtech	1026	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0	0	100	12	43
-NVIDIA/elements	bigtech	80	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	0	100
-NVIDIA/infra-controller	bigtech	257	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	4	64
-NVIDIA/k8s-driver-manager	bigtech	56	1	CONTRIBUTING.md	0	0	100	0	100
-NVIDIA/makani	bigtech	398	0		0	0	100	15	0
-NVIDIA/nvcf	bigtech	199	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	7	64
-SAP/ai-assisted-github-actions	bigtech	9	1	CONTRIBUTING.md	0	1	100	0	0
-SAP/astonish	bigtech	20	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	0	60
-SAP/btp-environment-variable-access	bigtech	23	1	CONTRIBUTING.md	0	1	100	0	63
-SAP/cloud-sdk-ios-fiori	bigtech	134	1	CONTRIBUTING.md	0	0	100	0	0
-SAP/crossplane-provider-btp	bigtech	26	1	CONTRIBUTING.md	0	1	100	1	19
-SAP/redis-operator	bigtech	18	1	CONTRIBUTING.md	0	1	100	0	1
-SAP/sailing-analytics	bigtech	34	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	1	1	27	2	1
-SAP/spartacus	bigtech	783	1	CONTRIBUTING.md	0	0	100	1	9
-Shopify/cli	bigtech	733	1	AGENTS.md;CONTRIBUTING.md	0	0	100	41	0
-Shopify/hansel	bigtech	26	1	CONTRIBUTING.md	0	0	100	0	99
-Shopify/product-taxonomy	bigtech	345	0		0	0	100	28	3
-Shopify/spoom	bigtech	271	0		0	0	100	6	57
-Shopify/tecnix	bigtech	6	1	CLAUDE.md;CONTRIBUTING.md	0	0	29	3	3
-adobe/aem-core-forms-components	bigtech	36	1	.github/CONTRIBUTING.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	26	0
-adobe/aem-desktop	bigtech	2	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	29	28	1
-adobe/aio-e2e-tests	bigtech	5	1	.github/CONTRIBUTING.md	0	0	79	2	20
-adobe/data	bigtech	11	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0	0	100	84	0
-adobe/mysticat-ci	bigtech	1	0		0	0	18	9	0
-adobe/react-spectrum	bigtech	15814	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	2	0
-adobe/skills	bigtech	169	1	CONTRIBUTING.md	0	1	100	49	3
-adobe/spacecat-api-service	bigtech	10	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	77	0
-adobe/spectrum-web-components	bigtech	1530	1	AGENTS.md;CONTRIBUTING.md	0	0	100	26	0
-atlassian/atlascode	bigtech	128	1	AGENTS.md;CONTRIBUTING.md	0	0	100	0	0
-atlassian/atlassian-mcp-server	bigtech	983	1	CONTRIBUTING.md	0	0	42	2	0
-atlassian/data-center-helm-charts	bigtech	179	1	CONTRIBUTING.md	0	0	100	0	2
-atlassian/forge-skills	bigtech	20	1	CONTRIBUTING.md	0	0	10	1	0
-atlassian/go-sentry-api	bigtech	55	0		0	0	29	0	1
-atlassian/openapi-request-validator	bigtech	12	1	AGENTS.md;CONTRIBUTING.md	0	0	2	0	0
-atlassian/pragmatic-drag-and-drop	bigtech	12738	1	CONTRIBUTING.md	0	0	1	0	0
-atlassian/twg-cli	bigtech	12	1	AGENTS.md;CONTRIBUTING.md	0	0	2	0	0
-cloudflare/agents	bigtech	5484	1	AGENTS.md	0	1	100	4	0
-cloudflare/cloudflare-docs	bigtech	5133	1	AGENTS.md;CONTRIBUTING.md	0	0	100	2	1
-cloudflare/cloudflare-os	bigtech	9133	1	AGENTS.md;CONTRIBUTING.md	0	0	97	12	8
-cloudflare/pingora	bigtech	27268	1	.github/CONTRIBUTING.md	0	0	100	1	11
-cloudflare/python-workers-examples	bigtech	304	0		0	0	52	0	0
-cloudflare/svg-hush	bigtech	428	0		0	0	8	0	1
-cloudflare/workerd	bigtech	8636	1	AGENTS.md;CONTRIBUTING.md	0	0	100	3	7
-cloudflare/workers-py	bigtech	98	1	AGENTS.md;CONTRIBUTING.md	0	0	100	1	2
-cloudflare/workers-sdk	bigtech	4469	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	6	19
-elastic/apm-agent-python	bigtech	430	1	CONTRIBUTING.md	0	0	100	10	56
-elastic/built-docs	bigtech	47	0		0	0	16	0	0
-elastic/connectors	bigtech	133	0		0	0	100	52	0
-elastic/docs-content	bigtech	47	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md	0	1	100	42	0
-elastic/ecs-logging-php	bigtech	21	1	CONTRIBUTING.md	0	0	63	1	2
-elastic/elastic-docs-skills	bigtech	71	1	CLAUDE.md;CONTRIBUTING.md	0	1	80	39	0
-elastic/elasticsearch	bigtech	77860	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	2	0
-elastic/eui	bigtech	6344	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	18	0
-elastic/highlightjs-esql	bigtech	4	1	CONTRIBUTING.md	0	0	100	0	0
-elastic/integrations	bigtech	332	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	20	8
-elastic/kibana	bigtech	21255	1	AGENTS.md;CONTRIBUTING.md	0	1	100	45	0
-elastic/oblt-cli-buildkite-plugin	bigtech	0	0		0	0	75	7	19
-elastic/terraform-provider-elasticstack	bigtech	208	1	AGENTS.md;CLAUDE.md	0	0	100	45	3
-github/awesome-copilot	bigtech	38211	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0	1	100	31	4
-github/docs	bigtech	20726	1	.github/CONTRIBUTING.md	0	0	100	60	8
-github/forgoodfirstissue	bigtech	243	1	CONTRIBUTING.md	0	0	100	2	50
-github/gh-aw	bigtech	4992	1	AGENTS.md;CONTRIBUTING.md	0	1	100	14	0
-github/gh-aw-actions	bigtech	43	1	AGENTS.md;CONTRIBUTING.md	0	1	100	1	0
-github/gh-aw-firewall	bigtech	136	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	68	0
-github/gh-stack	bigtech	1361	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0	0	100	19	15
-github/go-spdx	bigtech	52	1	CONTRIBUTING.md	0	0	100	3	27
-github/markdownlint-github	bigtech	101	1	CONTRIBUTING.md	0	0	100	1	82
-github/storybook-addon-performance-panel	bigtech	422	1	CONTRIBUTING.md	0	0	100	2	60
-gitlab-org/...	bigtech	0	0		0	0	0	0	0
-gitlab-org/gitlab-ce	bigtech	1	0		0	0	0	0	0
-hashicorp/consul	bigtech	30040	1	.github/CONTRIBUTING.md	0	0	100	1	9
-hashicorp/consul-k8s	bigtech	708	1	CONTRIBUTING.md	0	0	100	6	7
-hashicorp/consul-template	bigtech	4824	1	.github/CONTRIBUTING.md	0	0	100	0	21
-hashicorp/design-system	bigtech	512	1	.github/copilot-instructions.md;AGENTS.md	0	0	100	9	7
-hashicorp/nomad-driver-podman	bigtech	22	0		0	0	100	0	49
-hashicorp/setup-copywrite	bigtech	6	0		0	0	54	0	29
-hashicorp/terraform-aws-consul-ecs	bigtech	55	0		0	0	100	0	39
-hashicorp/terraform-provider-aws	bigtech	11047	1	.github/copilot-instructions.md;AGENTS.md	0	0	100	9	10
-intel/auto-round	bigtech	1585	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	6	84
-intel/intel-graphics-compiler	bigtech	714	1	CONTRIBUTING.md	0	0	4	0	1
-intel/intel-xpu-backend-for-triton	bigtech	266	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0	1	100	36	27
-intel/kvm-multios	bigtech	14	1	CONTRIBUTING.md	0	0	30	0	30
-intel/llvm	bigtech	1516	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	16	15
-intel/neural-compressor	bigtech	2703	1	.github/copilot-instructions.md	0	0	100	9	93
-intel/torch-xpu-ops	bigtech	105	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	7	8
-mongodb/docs	bigtech	775	1	.github/copilot-instructions.md;CLAUDE.md	0	0	100	0	0
-mongodb/kingfisher	bigtech	1214	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	8	17
-mongodb/mongo	bigtech	28502	1	.github/copilot-instructions.md	0	0	100	0	1
-mongodb/mongodb-atlas-cli	bigtech	186	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	0	51
-mongodb/mongodb-cli	bigtech	7	1	CONTRIBUTING.md	0	0	89	0	74
-mongodb/mongodb-kubernetes	bigtech	211	1	CONTRIBUTING.md	0	0	100	8	25
-mongodb/node-mongodb-native	bigtech	10174	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	10	6
-mongodb/openapi	bigtech	18	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	3	74
-oracle/graal	bigtech	21671	1	AGENTS.md;CONTRIBUTING.md	0	1	100	0	0
-oracle/graalvm-reachability-metadata	bigtech	475	1	AGENTS.md;CLAUDE.md	0	0	100	1	4
-oracle/javavscode	bigtech	316	1	CONTRIBUTING.md	0	1	100	0	3
-oracle/rust-oracledb	bigtech	14	1	CONTRIBUTING.md	0	0	0	0	0
-oracle/weblogic-azure	bigtech	13	1	CONTRIBUTING.md	0	0	100	0	44
-oracle/weblogic-deploy-tooling	bigtech	166	1	CONTRIBUTING.md	0	0	100	0	18
-oracle/weblogic-kubernetes-operator	bigtech	267	1	CONTRIBUTING.md	0	0	100	0	56
-oracle/weblogic-toolkit-ui	bigtech	29	1	CONTRIBUTING.md	0	0	100	0	2
-salesforce/AgentforceMobileSDK-Android	bigtech	7	1	CONTRIBUTING.md	0	0	1	0	0
-salesforce/AgentforceMobileSDK-iOS	bigtech	15	1	CONTRIBUTING.md	0	0	11	0	0
-salesforce/carbonj	bigtech	28	1	CLAUDE.md	0	0	100	1	62
-salesforce/financial-services-agentic-advisor	bigtech	0	1	CONTRIBUTING.md	0	0	15	3	0
-salesforce/lwc	bigtech	1786	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	12	60
-salesforce/multicloudj	bigtech	81	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	0	0
-salesforce/sf-pi	bigtech	91	1	AGENTS.md;CONTRIBUTING.md	0	1	100	0	7
-salesforce/zana	bigtech	3	1	CLAUDE.md;CONTRIBUTING.md	0	1	64	4	22
-spotify/ads-agentic-tools	bigtech	14	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	42	32	0
-spotify/confidence-ai-plugins	bigtech	8	1	CLAUDE.md	0	0	61	45	0
-spotify/confidence-cli	bigtech	0	1	AGENTS.md;CLAUDE.md	0	0	36	1	0
-spotify/confidence-resolver	bigtech	14	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	65	15
-spotify/confidence-sdk-android	bigtech	12	1	CONTRIBUTING.md	0	0	100	14	1
-spotify/flink-on-k8s-operator	bigtech	225	1	CONTRIBUTING.md	0	0	100	2	62
-spotify/pedalboard	bigtech	6276	1	CONTRIBUTING.md	0	0	100	1	0
-spotify/spotify.github.io	bigtech	135	0		0	0	14	0	6
-twilio/sdk-actions	bigtech	0	1	CONTRIBUTING.md	0	0	15	4	0
-twilio/twilio-csharp	bigtech	710	1	CONTRIBUTING.md	0	0	100	0	0
-twilio/twilio-java	bigtech	523	1	CONTRIBUTING.md	0	0	100	5	2
-twilio/twilio-oai	bigtech	169	0		0	0	69	0	0
-twilio/twilio-oai-generator	bigtech	31	1	CONTRIBUTING.md	0	0	100	7	2
-twilio/twilio-ruby	bigtech	1390	1	CONTRIBUTING.md	0	0	100	1	0
-twilio/twilio-video-node	bigtech	1	1	CONTRIBUTING.md	0	0	22	4	0
-twilio/twilio-voice-react-native	bigtech	100	1	CONTRIBUTING.md	0	0	100	1	0
-vercel/ai	bigtech	26401	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	12	2
-vercel/eve	bigtech	4788	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	2	81
-vercel/next.js	bigtech	141925	1	AGENTS.md;CLAUDE.md	0	0	100	3	0
-vercel/sdk	bigtech	159	1	.github/CONTRIBUTING.md;CONTRIBUTING.md	0	0	100	21	0
-vercel/turborepo	bigtech	31007	1	AGENTS.md;CONTRIBUTING.md	0	0	100	13	0
-vercel/vercel	bigtech	16142	1	.github/CONTRIBUTING.md;AGENTS.md	0	0	100	16	5
-vercel/vercel-py	bigtech	24	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	1	0
-vercel/workflow	bigtech	2348	1	AGENTS.md;CLAUDE.md	0	1	100	32	50
-Adyen/adyen-android	finance	148	1	AGENTS.md	0	0	100	1	0
-Adyen/adyen-flutter	finance	30	1	AGENTS.md	0	1	100	5	0
-Adyen/adyen-java-api-library	finance	146	1	AGENTS.md;CONTRIBUTING.md	0	0	100	1	0
-Adyen/adyen-node-api-library	finance	138	1	AGENTS.md;CONTRIBUTING.md	0	0	100	1	0
-Adyen/adyen-platform-experience-web	finance	8	1	AGENTS.md;CONTRIBUTING.md	0	0	100	3	0
-Adyen/adyen-react-native	finance	71	1	AGENTS.md;CONTRIBUTING.md	0	0	100	5	13
-Adyen/adyen-salesforce-headless-commerce-pwa	finance	10	1	AGENTS.md	0	0	100	0	0
-Adyen/adyen-web	finance	254	0		0	0	100	7	1
-Affirm/Magento2_Affirm	finance	12	0		0	0	100	0	0
-Affirm/Salesforce_Commerce_Cloud_Affirm	finance	1	0		0	0	54	0	9
-Affirm/affirm-merchant-sdk-android	finance	2	0		0	0	100	0	0
-Affirm/affirm-merchant-sdk-ios	finance	4	1	CLAUDE.md	0	0	100	0	0
-Barclays/research_data_science	finance	19	0		0	0	8	0	0
-Citi/OQC-PINN	finance	0	0		0	0	0	0	0
-Citi/Quantum-ORNL	finance	0	0		0	0	0	0	0
-Citi/coding-workshop-participant	finance	14	1	CONTRIBUTING.md	0	0	60	0	13
-MercuryTechnologies/buck2-haskell	finance	2	0		0	0	0	0	0
-MercuryTechnologies/ghc-persistent-worker	finance	7	0		0	0	38	0	0
-MercuryTechnologies/hs-temporal-sdk	finance	69	1	AGENTS.md	0	0	100	1	0
-MercuryTechnologies/postgresql-simple-interval	finance	2	0		0	0	76	1	43
-MercuryTechnologies/signet	finance	3	0		0	0	65	0	43
-MercuryTechnologies/slacklinker	finance	14	0		0	0	48	0	0
-MercuryTechnologies/snowydeer	finance	30	0		0	0	0	0	0
-Nasdaq/NasdaqCloudDataService-REST-API	finance	62	0		0	0	15	0	0
-Nasdaq/NasdaqCloudDataService-SDK-Java	finance	98	0		0	0	34	0	0
-Nasdaq/NasdaqCloudDataService-SDK-Python	finance	99	0		0	0	42	0	0
-Nasdaq/active_record_proxy_adapters	finance	84	0		0	0	100	1	62
-Nasdaq/nasdaq-protocols	finance	10	0		0	0	52	0	0
-Nasdaq/ndlbulkdownload	finance	8	0		0	0	0	0	0
-block/berd	finance	755	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	5	18
-block/builderbot	finance	81	0		0	0	100	46	91
-block/buzz	finance	30546	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	8	88
-block/coplan	finance	30	1	AGENTS.md	0	1	100	41	0
-block/pg-sprite	finance	4	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	55	0	0
-block/proto-fleet	finance	52	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	20	1
-block/schemabot	finance	27	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	61	0
-block/spirit	finance	199	1	.github/CONTRIBUTING.md;AGENTS.md	0	0	100	81	8
-bloomberg/bde	finance	1838	0		0	0	56	0	7
-bloomberg/blazingmq	finance	3208	1	CONTRIBUTING.md	0	0	100	0	100
-bloomberg/blazingmq-sdk-java	finance	34	0		0	0	86	1	78
-bloomberg/pushiko	finance	8	0		0	0	100	0	98
-bloomberg/selekt	finance	58	0		0	0	100	0	99
-brexhq/CrabTrap	finance	764	1	AGENTS.md;CONTRIBUTING.md	0	1	20	12	0
-brexhq/bazel-kotlin-vscode-extension	finance	15	0		0	0	71	2	0
-brexhq/pyrefchecker	finance	0	0		0	0	0	0	0
-brexhq/runtime-agnostic-ai-workflows	finance	0	0		0	0	0	0	0
-brexhq/terraform-exec	finance	0	1	CONTRIBUTING.md	0	0	0	0	0
-capitalone/Stratum-Observability	finance	27	1	CONTRIBUTING.md	0	0	33	0	1
-capitalone/VulnHunter	finance	947	1	CONTRIBUTING.md	0	0	10	6	0
-capitalone/acronym-decoder	finance	47	0		0	0	49	1	15
-capitalone/context-specs	finance	39	0		0	0	8	2	0
-capitalone/datacompy	finance	658	1	CLAUDE.md	0	0	100	0	0
-capitalone/edgetest	finance	26	0		0	0	95	0	0
-capitalone/locopy	finance	114	0		0	0	100	0	3
-capitalone/rubicon-ml	finance	140	0		0	0	100	0	0
-checkout/checkout-risk-sdk-android	finance	3	1	CONTRIBUTING.md	0	0	29	0	0
-checkout/checkout-sdk-go	finance	19	0		0	0	100	1	0
-checkout/checkout-sdk-java	finance	27	0		0	0	100	1	0
-checkout/checkout-sdk-net	finance	27	0		0	0	100	0	0
-checkout/checkout-sdk-php	finance	56	0		0	0	100	0	0
-checkout/checkout-sdk-python	finance	18	0		0	0	100	0	0
-checkout/checkout-sdk-ruby	finance	11	0		0	0	100	0	0
-checkout/checkout-woocommerce-plugin	finance	17	0		0	0	100	5	1
-chime/mani-diffy	finance	46	0		0	0	12	2	1
-chime/terraform-aws-alternat	finance	1261	0		0	0	100	0	9
-circlefin/arc-remote-signer	finance	9	0		0	0	4	0	0
-circlefin/circle-cctp-crosschain-transfer	finance	19	0		0	0	77	0	42
-circlefin/docs-examples	finance	2	1	CONTRIBUTING.md	0	0	2	0	0
-circlefin/formal-tendermint	finance	0	1	CONTRIBUTING.md	0	0	4	0	0
-circlefin/onramp-kit-demo	finance	0	0		0	0	0	0	0
-circlefin/payments-sample-app	finance	17	0		0	0	100	12	8
-circlefin/sidequestor	finance	2	1	CONTRIBUTING.md	0	0	3	2	0
-circlefin/skills	finance	144	1	CONTRIBUTING.md	0	0	14	0	0
-coinbase/agentkit	finance	1285	1	CONTRIBUTING.md	0	1	100	3	1
-coinbase/cb-mpc	finance	490	1	CONTRIBUTING.md	0	0	65	3	6
-coinbase/cdp-sdk	finance	195	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	15	0
-coinbase/cds	finance	495	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	41	0
-coinbase/coinbase-business-magento	finance	8	1	CONTRIBUTING.md	0	0	9	2	0
-coinbase/prime-sdk-ts	finance	1	1	CONTRIBUTING.md	0	0	6	1	0
-coinbase/stable-swapper	finance	1	1	CONTRIBUTING.md	0	0	19	1	1
-finos/.github	finance	0	0		0	0	100	0	1
-finos/fluxnova-release-parent	finance	7	0		0	0	11	0	0
-finos/fluxnova-testing-framework	finance	1	1	CONTRIBUTING.md	0	0	2	0	1
-finos/git-proxy	finance	241	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	1	44
-finos/legend-engine	finance	111	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	0	0
-finos/morphir	finance	204	1	AGENTS.md;CLAUDE.md	1	1	100	0	22
-finos/morphir-rust	finance	2	1	AGENTS.md;CONTRIBUTING.md	0	1	57	2	1
-finos/morphir-scala	finance	17	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	11	1
-hsbc/bqtools	finance	6	0		0	0	34	0	2
-hsbc/cost-manager	finance	19	1	CONTRIBUTING.md	0	0	42	0	3
-hsbc/cranker-connector	finance	26	0		0	0	11	0	0
-hsbc/encryption-helper-python	finance	3	0		0	0	41	0	0
-hsbc/go-api-pagination	finance	5	0		0	0	55	0	5
-hsbc/jdbc-inquirer	finance	2	0		0	0	27	0	24
-hsbc/mrpusa	finance	9	0		0	0	0	0	0
-hsbc/mu-cranker-router	finance	30	0		0	0	10	0	1
-ing-bank/INGenious	finance	168	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	0	0
-ing-bank/baker	finance	359	0		0	0	100	4	0
-ing-bank/cassandra-jdbc-wrapper	finance	112	1	CONTRIBUTING.md	0	0	24	0	0
-ing-bank/envoy-mcp-openapi-processor	finance	9	0		0	0	23	0	10
-ing-bank/golibs	finance	10	1	CONTRIBUTING.md	0	0	2	0	0
-ing-bank/ingenious-doc	finance	0	0		0	0	72	0	0
-ing-bank/lion	finance	1960	1	CONTRIBUTING.md	0	0	100	0	22
-ing-bank/vscode-psl	finance	20	0		0	0	83	0	19
-janestreet/PS7CompatibilityRules	finance	16	0		0	0	0	0	0
-janestreet/asic-puzzle-2026	finance	264	0		0	0	0	0	0
-janestreet/magic-trace	finance	6245	1	CONTRIBUTING.md	0	0	100	0	71
-jpmorganchase/PADL	finance	22	1	CONTRIBUTING.md	0	0	7	0	0
-jpmorganchase/dataquery-sdk	finance	5	1	CONTRIBUTING.md	0	0	51	2	0
-jpmorganchase/mosaic	finance	26	0		0	0	100	0	63
-jpmorganchase/nbcelltests	finance	97	1	CONTRIBUTING.md	0	0	100	0	81
-jpmorganchase/python-training	finance	13958	0		0	0	28	0	7
-jpmorganchase/qReduMIS	finance	5	0		0	0	0	0	0
-jpmorganchase/salesforce-b2c	finance	5	0		0	0	3	0	0
-jpmorganchase/salt-ds	finance	205	1	CONTRIBUTING.md	0	0	100	2	14
-klarna/SAP-Commerce-klarna-payments	finance	0	0		0	0	12	0	0
-klarna/erlavro	finance	139	0		0	0	86	0	0
-klarna/klarna-mobile-sdk-android	finance	8	1	CONTRIBUTING.md	0	0	41	0	0
-klarna/klarna-mobile-sdk-flutter	finance	12	0		0	0	28	0	0
-klarna/klarna-mobile-sdk-ios	finance	5	1	CONTRIBUTING.md	0	0	19	0	0
-klarna/klarna-mobile-sdk-spm	finance	2	0		0	0	2	0	0
-klarna/react-native-klarna-inapp-sdk	finance	27	1	CONTRIBUTING.md	0	0	100	0	1
-klarna/sfcc-klarna-payments	finance	4	0		0	0	23	0	0
-marqeta/local-store	finance	1	1	CONTRIBUTING.md	0	0	0	0	0
-marqeta/marqeta-mcp	finance	3	0		0	0	12	0	0
-marqeta/marqeta-openapi	finance	8	0		0	0	0	0	0
-marqeta/pr-bot	finance	3	0		0	0	38	0	0
-marqeta/sproutify-web	finance	2	0		0	0	0	0	0
-monzo/aws-nitro-util	finance	47	0		0	0	22	0	0
-monzo/docs	finance	117	1	CONTRIBUTING.md	0	0	100	4	8
-monzo/egress-operator	finance	261	0		0	0	29	0	0
-monzo/slog	finance	50	0		0	0	21	0	0
-monzo/terrors	finance	88	0		0	0	46	0	0
-monzo/typhon	finance	788	0		0	0	100	0	0
-morganstanley/.github	finance	0	0		0	0	3	1	0
-morganstanley/ComposeUI	finance	75	1	CONTRIBUTING.md	0	0	100	3	88
-morganstanley/Crossroads	finance	11	1	CONTRIBUTING.md	0	0	100	1	92
-morganstanley/eslint-plugin-externalincludes	finance	1	1	CONTRIBUTING.md	0	0	100	0	98
-morganstanley/hobbes	finance	1226	1	AGENTS.md;CONTRIBUTING.md	0	0	100	53	10
-morganstanley/message-broker	finance	22	1	CONTRIBUTING.md	0	0	100	0	90
-morganstanley/morganstanley.github.io	finance	1	0		0	0	100	0	88
-morganstanley/testplan	finance	210	0		0	0	100	12	2
-plaid/plaid-java	finance	148	1	CONTRIBUTING.md	0	0	100	0	0
-plaid/plaid-link-flutter	finance	0	1	CONTRIBUTING.md	0	0	30	10	6
-plaid/plaid-node	finance	585	1	CONTRIBUTING.md	0	0	100	0	0
-plaid/plaid-python	finance	518	1	CONTRIBUTING.md	0	0	100	0	0
-plaid/plaid-ruby	finance	246	1	CONTRIBUTING.md	0	0	100	0	0
-plaid/quickstart	finance	743	0		0	0	100	20	5
-plaid/react-native-plaid-link-sdk	finance	200	1	CONTRIBUTING.md	0	0	100	5	47
-plaid/sandbox-custom-users	finance	76	0		0	0	15	1	0
-revolut-engineering/jooq-plugin	finance	80	0		0	0	3	0	0
-revolut-engineering/magento2-hyva-compatibility	finance	0	0		0	0	0	0	0
-revolut-engineering/revolut-agent-skills	finance	5	0		0	0	2	0	0
-revolut-engineering/revolut-checkout	finance	33	0		0	0	73	0	0
-revolut-engineering/revolut-checkout-example	finance	15	0		0	0	9	0	0
-revolut-engineering/revolut-magento2-releases	finance	1	0		0	0	0	0	0
-revolut-engineering/revolut-openapi	finance	62	0		0	0	0	0	0
-revolut-engineering/revolut-x-api	finance	54	1	AGENTS.md;CONTRIBUTING.md	0	0	60	0	0
-santander/FiestaSantander2015	finance	0	0		0	0	0	0	0
-santander/Santander-Api-Wrapper	finance	1	0		0	0	0	0	0
-santander/santander.github.io	finance	0	0		0	0	0	0	0
-square/kotlinpoet	finance	4157	0		0	0	100	0	0
-square/leakcanary	finance	29985	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0	0	100	77	0
-square/luks2crypt	finance	50	0		0	0	100	1	80
-square/mobile-payments-sdk-android	finance	9	0		0	0	27	1	0
-square/mobile-payments-sdk-react-native	finance	16	1	CLAUDE.md;CONTRIBUTING.md	0	0	53	5	0
-square/wire	finance	4427	1	CONTRIBUTING.md	0	0	100	2	5
-square/workflow-kotlin	finance	1120	1	AGENTS.md;CONTRIBUTING.md	0	0	100	23	25
-square/workflow-swift	finance	369	1	CONTRIBUTING.md	0	0	100	3	2
-stripe/link-cli	finance	705	1	CLAUDE.md;CONTRIBUTING.md	0	0	100	19	2
-stripe/stripe-android	finance	1534	1	AGENTS.md;CLAUDE.md	0	0	100	78	0
-stripe/stripe-ios	finance	2563	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	53	0
-stripe/stripe-java	finance	998	1	CONTRIBUTING.md	0	0	100	11	0
-stripe/stripe-node	finance	4490	1	CONTRIBUTING.md	0	0	100	37	8
-stripe/stripe-php	finance	4018	1	CONTRIBUTING.md	0	0	100	9	0
-stripe/stripe-python	finance	2034	1	CONTRIBUTING.md	0	0	100	13	0
-stripe/stripe-ruby	finance	2162	1	CONTRIBUTING.md	0	0	100	22	0
-transferwise/cicada	finance	5	1	AGENTS.md;CLAUDE.md	0	0	60	1	5
-transferwise/cloudflare-prometheus-exporter	finance	16	1	CONTRIBUTING.md	0	0	28	1	20
-transferwise/envoy-api-java	finance	0	0		0	0	19	0	0
-transferwise/pipelinewise	finance	659	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	5	10
-transferwise/tw-experimentation	finance	5	0		0	0	20	0	0
-transferwise/wise-envoy-xds	finance	3	0		0	0	9	0	4
-transferwise/wise-pizza	finance	116	0		0	0	25	0	1
-unit-finance/action-runner	finance	1	0		0	0	14	1	0
-unit-finance/getting-started-examples	finance	0	0		0	0	0	0	0
-unit-finance/unit-ios-components-pod	finance	0	0		0	0	3	0	0
-unit-finance/unit-ios-sdk	finance	0	0		0	0	10	0	0
-unit-finance/unit-node-sdk	finance	43	0		0	0	100	3	0
-unit-finance/unit-openapi-ruby-sdk	finance	0	0		0	0	4	0	0
-unit-finance/unit-python-sdk	finance	24	0		0	0	100	0	0
-18F/analytics-reporter	gov	665	1	CONTRIBUTING.md	0	0	100	4	40
-18F/doj-atr-prototype	gov	2	0		0	0	73	0	59
-18F/fedramp-data	gov	41	1	CONTRIBUTING.md	0	0	31	0	0
-18F/identity-dashboard	gov	29	1	CONTRIBUTING.md	0	0	100	0	10
-18F/identity-design-system	gov	32	1	CONTRIBUTING.md	0	0	100	0	7
-18F/identity-idp	gov	586	1	CONTRIBUTING.md	0	0	100	0	0
-18F/identity-reporting-rails	gov	2	1	AGENTS.md;CONTRIBUTING.md	0	0	6	0	2
-18F/identity-terraform	gov	21	0		0	0	100	0	0
-DSACMS/MedicareClaimsPricerSource	gov	3	1	CONTRIBUTING.md	0	0	1	0	0
-DSACMS/automated-codejson-generator	gov	10	1	CONTRIBUTING.md	0	0	46	1	15
-DSACMS/codejson-core	gov	0	1	CONTRIBUTING.md	0	0	1	0	0
-DSACMS/codejson-generator	gov	2	1	CONTRIBUTING.md	0	0	50	0	33
-DSACMS/fdsh-utils	gov	0	1	CONTRIBUTING.md	0	0	8	0	0
-DSACMS/iv-cbv-payroll	gov	26	1	AGENTS.md;CONTRIBUTING.md	0	0	100	6	54
-DSACMS/repo-scaffolder	gov	48	1	CONTRIBUTING.md	0	0	100	1	71
-GSA/datagov-11ty	gov	20	1	CONTRIBUTING.md	0	0	100	0	64
-GSA/datagov-harvester	gov	30	1	CONTRIBUTING.md	0	0	100	13	26
-GSA/digital-gov-drupal	gov	16	1	CONTRIBUTING.md	0	0	100	0	33
-GSA/sam-ui-elements	gov	8	1	CONTRIBUTING.md	0	0	100	0	5
-GSA/site-scanning-analysis	gov	15	1	AGENTS.md;CLAUDE.md	0	0	30	0	0
-GSA/site-scanning-engine	gov	32	1	AGENTS.md;CLAUDE.md	0	0	100	0	25
-GSA/site-scanning-viewer	gov	4	0		0	0	0	0	0
-GSA/touchpoints	gov	66	0		0	0	100	4	40
-alphagov/datagovuk	gov	6	1	CLAUDE.md	0	0	100	0	27
-alphagov/gds-api-adapters	gov	21	0		0	0	100	0	49
-alphagov/govuk-infrastructure	gov	196	0		0	0	100	0	0
-alphagov/publishing-api	gov	44	0		0	0	0	0	0
-alphagov/search-admin	gov	5	0		0	0	100	0	87
-alphagov/signon	gov	97	0		0	0	100	0	80
-alphagov/support	gov	13	0		0	0	100	0	78
-alphagov/transition	gov	14	0		0	0	100	0	87
-cisagov/Malcolm	gov	2494	0		0	0	100	2	19
-cisagov/XFD	gov	30	1	CONTRIBUTING.md	0	0	100	0	0
-cisagov/dotgov-data	gov	329	0		0	0	100	0	0
-cisagov/get.gov	gov	35	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	1	18
-cisagov/manage.get.gov	gov	87	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	0	5
-cisagov/publish-egress-ip-lambda	gov	6	1	CONTRIBUTING.md	0	0	37	1	29
-cisagov/vulnrichment	gov	845	1	CONTRIBUTING.md	0	0	43	0	14
-nasa/aegis	gov	6	1	CLAUDE.md	0	0	0	0	0
-nasa/cFS	gov	1466	1	CONTRIBUTING.md	0	0	100	0	0
-nasa/cml	gov	10	1	CONTRIBUTING.md	0	1	17	0	0
-nasa/hds-core	gov	13	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	3	66
-nasa/ogma	gov	574	0		0	0	100	0	0
-nasa/opera-sds-lambdas	gov	5	0		0	0	59	0	16
-nasa/opera-sds-pcm	gov	31	0		0	0	100	1	0
-nasa/spacewasm	gov	1494	1	CONTRIBUTING.md	0	0	100	2	0
-usds/discovery-sprint-guide	gov	13	0		0	0	23	0	15
-usds/ditap-curriculum-update	gov	17	0		0	0	100	0	90
-usds/gatsby-uswds-ts-starter	gov	2	0		0	0	29	0	0
-usds/newSite2026	gov	0	0		0	0	0	0	0
-usds/playbook	gov	1593	0		0	0	48	0	0
-usds/techfar-hub-website-v3	gov	3	0		0	0	67	0	0
-usds/usds-new-site-2026	gov	0	0		0	0	0	0	0
-usds/website	gov	107	1	CONTRIBUTING.md	0	0	100	1	0
-CMSgov/ab2d	healthcare	19	1	.github/CONTRIBUTING.md;CONTRIBUTING.md	0	0	100	2	0
-CMSgov/bcda-app	healthcare	60	1	CONTRIBUTING.md	0	0	100	0	5
-CMSgov/beneficiary-fhir-data	healthcare	84	1	CONTRIBUTING.md	0	0	100	0	5
-CMSgov/bluebutton-web-server	healthcare	51	1	CONTRIBUTING.md	0	0	100	2	11
-CMSgov/cdap	healthcare	2	1	.github/CONTRIBUTING.md;CONTRIBUTING.md	0	0	100	3	0
-CMSgov/design-system	healthcare	363	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	3	5
-CMSgov/qpp-measures-data	healthcare	96	1	.github/copilot-instructions.md;CONTRIBUTING.md	0	0	100	1	0
-CMSgov/qpp-submissions-docs	healthcare	8	1	.github/CONTRIBUTING.md	0	0	100	1	29
-HL7/DEV.SDPi	healthcare	0	0		0	0	0	0	0
-HL7/cdc-opioid-cpg	healthcare	0	0		0	0	22	0	0
-HL7/davinci-deqm	healthcare	8	0		0	0	100	0	0
-HL7/davinci-pdex-plan-net	healthcare	6	0		0	0	100	0	0
-HL7/fhir-cqm	healthcare	2	0		0	0	89	0	0
-HL7/fhir-tx-ecosystem-ig	healthcare	4	0		0	0	58	3	0
-HL7/us-fhir-ps	healthcare	2	0		0	0	3	0	0
-HL7/v2ig	healthcare	0	1	CLAUDE.md	0	0	19	0	0
-biothings/annotation-hub	healthcare	0	0		0	0	5	0	0
-biothings/biothings.api	healthcare	53	1	CONTRIBUTING.md	0	0	100	1	0
-biothings/biothings_annotator	healthcare	2	0		0	0	78	2	0
-biothings/discovery-app	healthcare	5	0		0	0	100	2	0
-biothings/mychem.info	healthcare	20	0		0	0	82	1	0
-biothings/mygene.info	healthcare	133	0		0	0	31	0	0
-biothings/myvariant.info	healthcare	97	0		0	0	69	0	0
-biothings/trapi-testing-tools	healthcare	1	1	AGENTS.md	0	0	0	0	0
-medplum/medplum	healthcare	2627	0		0	0	100	6	97
-medplum/medplum-chat-demo	healthcare	0	0		0	0	0	0	0
-medplum/medplum-large-chart-demo	healthcare	1	0		0	0	1	1	1
-medplum/medplum-token-exchange-demo	healthcare	0	0		0	0	0	0	0
-medplum/medplum-valueset-selector	healthcare	3	0		0	0	0	0	0
-medplum/medplum-websocket-subscriptions-demo	healthcare	0	0		0	0	0	0	0
-nih-cfde/data-distillery	healthcare	7	0		0	0	14	0	0
-nih-cfde/events	healthcare	0	0		0	0	0	0	0
-nih-cfde/icc-eval-coordination	healthcare	0	0		0	0	4	0	0
-nih-cfde/icc-eval-core	healthcare	1	0		0	0	24	1	0
-nih-cfde/published-documentation	healthcare	3	0		0	0	100	0	0
-openemr/demo_farm_openemr	healthcare	6	0		0	0	100	52	1
-openemr/openemr	healthcare	5389	1	.github/copilot-instructions.md;CLAUDE.md;CONTRIBUTING.md	1	1	100	38	29
-openemr/openemr-devops	healthcare	118	0		0	0	100	54	30
-openemr/openemr-on-ecs	healthcare	25	1	CONTRIBUTING.md	0	0	59	0	5
-openemr/openemr-on-eks	healthcare	8	0		0	0	82	4	7
-openemr/website-openemr	healthcare	15	0		0	0	100	61	12
-openemr/website-openemr-files	healthcare	2	0		0	0	7	0	0
-openemr/website-openemr-previews	healthcare	0	0		0	0	0	0	0
-openmrs/openmrs-contrib-cvss-scanning	healthcare	1	0		0	0	72	0	0
-openmrs/openmrs-contrib-dependency-vulnerability-dashboard	healthcare	1	0		0	0	4	0	0
-openmrs/openmrs-contrib-liquibaserunner	healthcare	2	0		0	0	3	0	2
-openmrs/openmrs-contrib-o3-docs	healthcare	2	0		0	0	3	0	0
-openmrs/openmrs-contrib-performance-test	healthcare	6	0		0	0	100	0	40
-openmrs/openmrs-esm-core	healthcare	92	1	.github/copilot-instructions.md	0	0	100	5	0
-openmrs/openmrs-module-chartsearchai	healthcare	5	1	CLAUDE.md	0	1	100	94	0
-openmrs/openmrs-module-querystore	healthcare	2	1	CLAUDE.md	0	0	9	7	0
-smart-on-fhir/clinical-primitives	healthcare	0	0		0	0	0	0	0
-smart-on-fhir/cube-inference-fidelity-evaluation	healthcare	0	0		0	0	0	0	0
-smart-on-fhir/cumulus-aggregator	healthcare	3	0		0	0	100	0	0
-smart-on-fhir/cumulus-app	healthcare	2	0		0	0	8	1	0
-smart-on-fhir/cumulus-etl	healthcare	25	1	CONTRIBUTING.md	0	0	100	0	0
-smart-on-fhir/cumulus-library	healthcare	6	1	CONTRIBUTING.md	0	0	100	0	0
-smart-on-fhir/cumulus-library-pnoc30	healthcare	0	1	AGENTS.md	0	1	0	0	0
-smart-on-fhir/fhir-rest-api	healthcare	0	0		0	0	9	0	0
-CycloneDX/cyclonedx-core-java	security	118	0		0	0	100	0	88
-CycloneDX/cyclonedx-esbuild	security	6	1	CONTRIBUTING.md	0	0	92	3	91
-CycloneDX/cyclonedx-gradle-plugin	security	235	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	10	100
-CycloneDX/cyclonedx-javascript-library	security	24	1	CONTRIBUTING.md	0	0	100	1	99
-CycloneDX/cyclonedx-node-npm	security	148	1	CONTRIBUTING.md	0	0	100	1	99
-CycloneDX/cyclonedx-node-yarn	security	26	1	CONTRIBUTING.md	0	0	100	2	99
-CycloneDX/cyclonedx-property-taxonomy	security	25	0		0	0	100	0	91
-CycloneDX/specification	security	542	0		0	0	100	4	96
-OWASP/CheatSheetSeries	security	32974	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	1	100	4	32
-OWASP/OWASP-CRT	security	4	1	CONTRIBUTING.md	0	0	7	0	0
-OWASP/owasp.github.io	security	664	1	CONTRIBUTING.md	0	0	100	0	4
-OWASP/www-chapter-buea	security	1	0		0	0	1	0	0
-OWASP/www-chapter-lagos	security	0	0		0	0	0	0	0
-OWASP/www-chapter-san-fernando-valley	security	1	0		0	0	0	0	0
-OWASP/www-project-agent-memory-guard	security	155	1	CONTRIBUTING.md	0	0	44	13	6
-OWASP/www-project-nettacker	security	17	0		0	0	19	0	3
-anchore/anchore-charts	security	57	0		0	0	100	4	97
-anchore/cve-data-enrichment	security	18	0		0	0	57	0	57
-anchore/ecs-inventory	security	8	0		0	0	100	0	100
-anchore/k8s-inventory	security	71	1	CONTRIBUTING.md	0	0	100	0	100
-anchore/kubernetes-admission-controller	security	65	0		0	0	100	0	100
-anchore/nvd-data-overrides	security	51	0		0	0	64	0	64
-anchore/security-identifiers	security	1	0		0	0	43	0	43
-anchore/vulnerability-index-spec-files	security	1	0		0	0	100	0	99
-aquasecurity/helm-charts	security	21	0		0	0	23	0	4
-aquasecurity/kube-bench	security	8151	1	CONTRIBUTING.md	0	0	100	0	64
-aquasecurity/secfixes-tracker	security	8	0		0	0	13	0	0
-aquasecurity/trivy-operator	security	1929	1	CONTRIBUTING.md	0	0	100	0	35
-aquasecurity/vuln-list	security	464	1	CONTRIBUTING.md	0	0	11	0	0
-aquasecurity/vuln-list-debian	security	10	0		0	0	0	0	0
-aquasecurity/vuln-list-nvd	security	15	0		0	0	4	0	0
-aquasecurity/vuln-list-redhat	security	15	0		0	0	1	0	0
-chainguard-dev/actions	security	172	0		0	0	100	7	88
-chainguard-dev/apko	security	1667	1	CONTRIBUTING.md	0	0	100	10	72
-chainguard-dev/edu	security	94	0		0	0	100	42	37
-chainguard-dev/image-comparison	security	21	0		0	0	53	2	24
-chainguard-dev/sdk	security	2	0		0	0	0	0	0
-chainguard-dev/terraform-infra-common	security	29	1	CLAUDE.md	0	0	0	0	0
-chainguard-dev/terraform-provider-apko	security	20	0		0	0	100	5	76
-chainguard-dev/terraform-provider-oci	security	14	0		0	0	100	2	90
-dependency-check/DependencyCheck	security	7667	0		0	0	100	6	77
-dependency-check/azuredevops	security	53	0		0	0	48	0	11
-dependency-check/dependency-check-gradle	security	386	0		0	0	100	2	18
-dependency-check/dependency-check-sonar-plugin	security	693	0		0	0	100	0	75
-gittuf/community	security	3	0		0	0	17	0	16
-gittuf/demo	security	11	0		0	0	65	0	65
-gittuf/github-app	security	5	1	CONTRIBUTING.md	0	0	100	0	99
-gittuf/gittuf	security	653	1	CONTRIBUTING.md	0	0	100	4	100
-gittuf/gittuf-installer	security	3	0		0	0	65	0	65
-gittuf/gittuf.github.io	security	0	1	CONTRIBUTING.md	0	0	58	0	55
-gittuf/visualizer	security	2	0		0	0	100	0	100
-google-github-actions/.github	security	12	1	CONTRIBUTING.md	0	0	37	0	4
-google-github-actions/auth	security	1368	0		0	0	100	0	13
-google-github-actions/deploy-appengine	security	280	0		0	0	100	0	16
-google-github-actions/run-gemini-cli	security	2059	1	CONTRIBUTING.md	0	0	100	4	21
-google-github-actions/send-google-chat-webhook	security	29	1	CONTRIBUTING.md	0	0	20	0	0
-google-github-actions/setup-cloud-sdk	security	14	0		0	0	100	0	5
-google-github-actions/setup-gcloud	security	1905	0		0	0	100	0	19
-google-github-actions/upload-cloud-storage	security	270	0		0	0	100	0	16
-in-toto/archivista	security	116	1	CONTRIBUTING.md	0	0	100	0	94
-in-toto/attestation	security	371	0		0	0	100	2	98
-in-toto/attestation-verifier	security	19	0		0	0	100	0	100
-in-toto/go-witness	security	52	1	CONTRIBUTING.md	0	0	100	2	100
-in-toto/in-toto	security	1029	0		0	0	100	0	100
-in-toto/in-toto-rs	security	35	0		0	0	70	0	51
-in-toto/scai-demos	security	19	0		0	0	100	0	100
-in-toto/witness	security	546	1	CONTRIBUTING.md	0	0	100	1	100
-oss-review-toolkit/.github	security	1	1	CONTRIBUTING.md	0	0	7	0	7
-oss-review-toolkit/ort	security	2073	1	.github/copilot-instructions.md	0	0	100	0	44
-oss-review-toolkit/ort-ci-github-action	security	34	0		0	0	37	0	27
-oss-review-toolkit/ort-config	security	23	0		0	0	100	0	16
-oss-review-toolkit/ort-governance	security	1	1	CONTRIBUTING.md	0	0	26	0	26
-oss-review-toolkit/ort-package-manager-plugin	security	0	0		0	0	100	0	3
-oss-review-toolkit/ort-workbench	security	29	0		0	0	100	0	5
-oss-review-toolkit/orthw-shell	security	13	0		0	0	84	0	84
-ossf/best-practices-badge	security	1356	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	1	0	100	36	95
-ossf/malicious-packages	security	600	1	CONTRIBUTING.md	0	0	100	1	98
-ossf/oss-crs	security	146	1	CONTRIBUTING.md	0	0	100	3	100
-ossf/ossf-landscape	security	33	0		0	0	100	0	100
-ossf/pvtr-github-repo-scanner	security	31	1	.github/CONTRIBUTING.md	0	0	100	13	97
-ossf/scorecard-action	security	410	0		0	0	100	0	99
-ossf/scorecard-infra	security	1	1	AGENTS.md;CONTRIBUTING.md	1	0	29	13	29
-ossf/scorecard-webapp	security	31	0		0	0	100	6	100
-projectdiscovery/aix	security	321	0		0	0	100	0	97
-projectdiscovery/awesome-search-queries	security	405	1	CONTRIBUTING.md	0	0	24	0	4
-projectdiscovery/docs	security	27	0		0	0	100	6	7
-projectdiscovery/ipranger	security	70	0		0	0	100	0	97
-projectdiscovery/mapcidr	security	1221	0		0	0	100	0	97
-projectdiscovery/nuclei-templates	security	12835	1	CONTRIBUTING.md	0	0	100	1	0
-projectdiscovery/shuffledns	security	1663	0		0	0	100	0	93
-projectdiscovery/utils	security	139	0		0	0	100	1	65
-semgrep/e2e	security	2	0		0	0	2	0	0
-semgrep/pre-commit	security	10	0		0	0	100	4	0
-semgrep/semgrep	security	16385	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	17	0
-semgrep/semgrep-docs	security	59	0		0	0	100	13	0
-semgrep/semgrep-interfaces	security	20	0		0	0	100	1	0
-semgrep/semgrep-network-broker	security	11	0		0	0	100	8	35
-semgrep/semgrep-vscode	security	76	1	CONTRIBUTING.md	0	0	100	4	0
-sigstore/docs	security	151	0		0	0	100	1	100
-sigstore/gh-action-sigstore-python	security	71	0		0	0	100	0	100
-sigstore/policy-controller	security	178	0		0	0	100	7	100
-sigstore/rekor	security	1199	0		0	0	100	1	100
-sigstore/root-signing-staging	security	11	0		0	0	100	2	100
-sigstore/sigstore-rekor-types	security	7	0		0	0	100	1	93
-sigstore/sigstore-rs	security	238	0		0	0	100	3	100
-sigstore/terraform-modules	security	5	0		0	0	100	2	100
-slsa-framework/attested-build-environments-demo	security	8	0		0	0	63	0	34
-slsa-framework/governance	security	28	0		0	0	12	0	12
-slsa-framework/oss-na24-slsa-workshop-model-integrity	security	4	0		0	0	100	0	0
-slsa-framework/slsa	security	1913	1	CONTRIBUTING.md	0	0	100	2	98
-slsa-framework/slsa-github-generator	security	595	1	CONTRIBUTING.md	0	0	100	0	94
-slsa-framework/slsa-verifier	security	343	0		0	0	100	0	74
-slsa-framework/source-actions	security	2	0		0	0	24	0	24
-slsa-framework/source-tool	security	18	0		0	0	100	2	100
-snyk/agent-scan	security	2955	1	CONTRIBUTING.md	0	0	100	3	0
-snyk/artifactory-snyk-security-plugin	security	25	1	CONTRIBUTING.md	0	0	100	0	0
-snyk/broker	security	120	1	.github/CONTRIBUTING.md	0	0	100	0	1
-snyk/cli	security	5646	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	100	11	1
-snyk/saw-mcp	security	7	1	CONTRIBUTING.md	0	0	76	21	12
-snyk/snyk-eclipse-plugin	security	23	1	CONTRIBUTING.md	0	0	100	9	0
-snyk/snyk-ls	security	83	1	CONTRIBUTING.md	0	0	100	17	0
-snyk/user-docs	security	56	0		0	0	100	10	1
-spdx/LicenseListPublisher	security	23	1	CONTRIBUTING.md	0	0	100	0	67
-spdx/license-list-XML	security	486	1	CONTRIBUTING.md	0	0	100	1	38
-spdx/license-list-data	security	690	1	CONTRIBUTING.md	0	0	13	0	10
-spdx/meetings	security	43	1	CONTRIBUTING.md	0	0	100	0	19
-spdx/spdx-3-model	security	104	0		0	0	100	0	95
-spdx/spdx-online-tools	security	73	1	CONTRIBUTING.md	0	0	100	8	83
-spdx/spdx-spec	security	381	1	CONTRIBUTING.md	0	0	100	0	100
-spdx/tools-golang	security	170	1	CONTRIBUTING.md	0	0	100	0	99
-testifysec/curl	security	0	1	.github/CONTRIBUTING.md	0	0	0	0	0
-testifysec/hardener	security	0	0		0	0	88	88	0
-testifysec/hugo	security	0	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0	0	0	0	0
-testifysec/pushgate-demo	security	0	0		0	0	0	0	0
-testifysec/witness	security	0	0		0	0	0	0	0
-trailofbits/break-golf	security	0	0		0	0	0	0	0
-trailofbits/cargo-unmaintained	security	97	0		0	0	100	1	44
-trailofbits/claude-code-config	security	2080	0		0	0	32	30	0
-trailofbits/elaborate	security	9	0		0	0	100	0	48
-trailofbits/eth-security-toolbox	security	735	0		0	0	20	1	6
-trailofbits/gh-action-adapt-sigstore-pypi	security	2	0		0	0	69	0	67
-trailofbits/it-depends	security	410	1	CLAUDE.md	0	0	100	12	76
-trailofbits/skills	security	6837	1	AGENTS.md;CLAUDE.md	0	1	100	70	7
+repo	sector	stars	has_policy	policy_files	requires_trailer	verified_requires	mentions_ai	prs_sampled	ai_trailer_prs	dco_prs
+EleutherAI/bergson	aivendor	73	1	CLAUDE.md	0		0	100	58	0
+EleutherAI/delphi	aivendor	275	0		0		0	100	0	1
+EleutherAI/elk	aivendor	224	0		0		0	100	0	0
+EleutherAI/lm-evaluation-harness	aivendor	13777	0		0		0	100	11	0
+EleutherAI/metasmoothness	aivendor	0	0		0		0	1	0	0
+EleutherAI/sparsify	aivendor	737	0		0		0	79	1	0
+Stability-AI/Awesome-Stable-Audio	aivendor	34	0		0		0	4	0	0
+Stability-AI/ReLi3D	aivendor	71	0		0		0	0	0	0
+Stability-AI/Stable-Layers	aivendor	14	0		0		0	0	0	0
+Stability-AI/stable-audio-3	aivendor	691	0		0		0	57	14	9
+Stability-AI/stable-audio-metrics	aivendor	301	0		0		0	0	0	0
+Stability-AI/stable-audio-tools	aivendor	3847	0		0		0	52	1	0
+Stability-AI/stable-codec	aivendor	444	0		0		0	2	0	0
+Weights-Biases/.github	aivendor	0	0		0		0	0	0	0
+allenai/EMO	aivendor	49	1	CLAUDE.md	0		1	31	6	0
+allenai/OLMo-core	aivendor	1488	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	69	0
+allenai/dolma	aivendor	1537	0		0		0	100	1	7
+allenai/olmo-eval	aivendor	67	1	CLAUDE.md	0		0	100	27	8
+allenai/olmoearth_pretrain	aivendor	299	0		0		0	100	11	0
+allenai/open-instruct	aivendor	3848	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	79	0
+allenai/rslearn_projects	aivendor	24	0		0		0	100	8	0
+allenai/sinonym	aivendor	5	0		0		0	26	2	0
+anthropics/anthropic-cli	aivendor	622	1	CONTRIBUTING.md	0		0	48	2	0
+anthropics/anthropic-sdk-csharp	aivendor	318	1	CONTRIBUTING.md	0		0	100	18	0
+anthropics/anthropic-sdk-python	aivendor	3849	1	CONTRIBUTING.md	0		0	100	10	0
+anthropics/claude-agent-sdk-python	aivendor	7967	1	CLAUDE.md	0		0	100	13	0
+anthropics/claude-agent-sdk-typescript	aivendor	1719	0		0		0	15	3	0
+anthropics/claude-code	aivendor	142914	0		0		0	100	29	0
+anthropics/claude-code-action	aivendor	8713	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	19	5
+anthropics/claude-code-base-action	aivendor	956	1	CLAUDE.md;CONTRIBUTING.md	0		0	54	18	0
+cohere-ai/cohere-developer-experience	aivendor	114	0		0		0	100	2	12
+cohere-ai/cohere-typescript	aivendor	171	1	CONTRIBUTING.md	0		0	100	3	2
+cohere-ai/cvm-measure	aivendor	0	1	CONTRIBUTING.md	0		0	10	2	3
+cohere-ai/integritee	aivendor	0	0		0		0	28	14	4
+cohere-ai/melody	aivendor	1	0		0		0	100	3	12
+cursor/community-plugins	aivendor	3980	1	AGENTS.md	0		0	100	22	0
+cursor/cookbook	aivendor	4058	0		0		0	6	4	0
+cursor/cursor	aivendor	33170	0		0		0	49	0	0
+cursor/minisqlite	aivendor	272	0		0		0	0	0	0
+cursor/mixture-of-kittens	aivendor	569	1	CONTRIBUTING.md	0		0	1	0	1
+cursor/plugins	aivendor	5034	0		0		0	100	21	0
+cursor/sdk-bridge	aivendor	74	0		0		0	0	0	0
+cursor/terraform-provider-cursor	aivendor	11	0		0		0	8	5	2
+explosion/curated-tokenizers	aivendor	12	0		0		0	55	0	0
+explosion/cython-blis	aivendor	238	0		0		0	95	3	1
+explosion/ellf-terraform-cluster	aivendor	1	0		0		0	0	0	0
+explosion/fastapi-explosion-extras	aivendor	2	0		0		0	1	0	0
+explosion/gha-cibuildwheel	aivendor	0	0		0		0	1	0	0
+explosion/radicli	aivendor	110	0		0		0	31	0	0
+explosion/sense2vec	aivendor	1679	0		0		0	39	0	0
+explosion/spaCy	aivendor	33841	1	CONTRIBUTING.md	0		0	100	0	0
+ggml-org/Llama-Windows	aivendor	18	0		0		0	46	0	0
+ggml-org/convert	aivendor	23	0		0		0	22	9	0
+ggml-org/llama-install.sh	aivendor	29	0		0		0	84	0	79
+ggml-org/llama.brand	aivendor	4	0		0		0	1	0	0
+ggml-org/llama.cpp	aivendor	125501	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	1	1	1	100	20	3
+ggml-org/llama.cpp-dev	aivendor	6	0		0		0	2	2	0
+ggml-org/llama.vim	aivendor	2149	0		0		0	73	6	2
+ggml-org/whisper.cpp	aivendor	53154	1	AGENTS.md;CONTRIBUTING.md	0		1	100	11	12
+huggingface/diffusers	aivendor	34373	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	19	4
+huggingface/huggingface.js	aivendor	2499	1	CONTRIBUTING.md	0		0	100	19	0
+huggingface/kernels	aivendor	725	1	CONTRIBUTING.md	0		1	100	7	8
+huggingface/kernels-community	aivendor	141	1	AGENTS.md;CONTRIBUTING.md	0		0	100	7	12
+huggingface/lerobot	aivendor	26897	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	20	6
+huggingface/tokenizers	aivendor	10993	1	CONTRIBUTING.md	0		0	100	13	20
+huggingface/transformers	aivendor	164414	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	35	7
+huggingface/trl	aivendor	19147	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	6	1
+langchain-ai/chat-langchain	aivendor	6441	0		0		0	100	6	7
+langchain-ai/deepagents	aivendor	28402	1	AGENTS.md	0		1	100	0	7
+langchain-ai/docs	aivendor	398	1	.github/CONTRIBUTING.md;.github/copilot-instructions.md;AGENTS.md;CLAUDE.md	0		0	100	17	0
+langchain-ai/langchain	aivendor	144931	1	AGENTS.md;CLAUDE.md	0		0	100	4	11
+langchain-ai/langchain-aws	aivendor	343	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0		1	100	3	6
+langchain-ai/open-swe	aivendor	10612	1	AGENTS.md;CLAUDE.md	0		1	100	4	0
+langchain-ai/openwiki	aivendor	15577	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	12	5
+langchain-ai/terraform	aivendor	16	1	AGENTS.md	0		0	100	19	0
+mistralai/client-python	aivendor	762	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	0	0
+mistralai/client-ts	aivendor	155	1	CONTRIBUTING.md	0		0	100	1	0
+mistralai/cookbook	aivendor	2313	0		0		0	100	1	0
+mistralai/mistral-common	aivendor	934	1	AGENTS.md	0		0	100	0	3
+mistralai/platform-docs-public	aivendor	72	1	CLAUDE.md	0		0	100	5	0
+mistralai/search-starter-app	aivendor	27	0		0		0	17	10	0
+mistralai/workflows-starter-app	aivendor	32	0		0		0	19	1	0
+modal-labs/credential-injection	aivendor	8	0		0		0	2	0	0
+modal-labs/modal-client	aivendor	509	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0		0	0	0	0
+modal-labs/modal-examples	aivendor	1260	1	AGENTS.md;CLAUDE.md	0		0	100	14	0
+modal-labs/synchronicity	aivendor	144	0		0		0	100	0	2
+openai/codex	aivendor	117450	1	AGENTS.md	0		0	100	0	0
+openai/codex-security	aivendor	10150	1	AGENTS.md;CONTRIBUTING.md	0		0	100	2	0
+openai/homebrew-tools	aivendor	15	0		0		0	43	0	0
+openai/openai-agents-python	aivendor	28940	1	AGENTS.md;CLAUDE.md	0		0	100	0	0
+openai/openai-go	aivendor	3428	1	AGENTS.md;CONTRIBUTING.md	0		0	100	0	8
+openai/openai-java	aivendor	1511	1	AGENTS.md;CONTRIBUTING.md	0		0	100	0	6
+openai/openai-ruby	aivendor	451	1	AGENTS.md;CONTRIBUTING.md	0		0	100	0	6
+openai/tart	aivendor	6579	1	CONTRIBUTING.md	0		0	100	5	1
+replicate/cog	aivendor	9460	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	1	24
+replicate/cog-flux-schnell	aivendor	74	0		0		0	0	0	0
+replicate/homebrew-tap	aivendor	1	0		0		0	35	0	2
+replicate/pget	aivendor	151	1	CONTRIBUTING.md	0		0	100	0	39
+replicate/replicate-python-beta	aivendor	3	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	78	1	0
+replicate/setup-replicate	aivendor	2	1	CONTRIBUTING.md	0		0	0	0	0
+replicate/skills	aivendor	55	1	AGENTS.md	0		0	6	0	0
+run-llama/liteparse	aivendor	12168	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	7	0
+run-llama/llama-parse-csharp	aivendor	0	1	CONTRIBUTING.md	0		0	6	0	0
+run-llama/llama_index	aivendor	51856	1	CONTRIBUTING.md	0		1	100	3	5
+run-llama/llamacloud-admin-go	aivendor	0	1	CONTRIBUTING.md	0		0	0	0	0
+run-llama/llamacloud-admin-java	aivendor	0	0		0		0	0	0	0
+run-llama/llamacloud-admin-python	aivendor	0	1	CONTRIBUTING.md	0		0	0	0	0
+run-llama/llamacloud-admin-typescript	aivendor	0	1	CONTRIBUTING.md	0		0	0	0	0
+sourcegraph/cloud-artifacts	aivendor	2	0		0		0	0	0	0
+sourcegraph/deploy-sourcegraph-docker	aivendor	165	0		0		0	100	0	0
+sourcegraph/deploy-sourcegraph-helm	aivendor	18	1	AGENTS.md;CLAUDE.md	0		0	100	9	0
+sourcegraph/deploy-sourcegraph-k8s	aivendor	15	0		0		0	100	0	0
+sourcegraph/docs	aivendor	171	1	AGENTS.md	0		0	100	10	1
+sourcegraph/jsonrpc2	aivendor	253	0		0		0	58	0	13
+sourcegraph/sg	aivendor	28	0		0		0	2	0	0
+sourcegraph/smoke-tests	aivendor	9	0		0		0	21	0	0
+wandb/docs	aivendor	24	1	AGENTS.md;CONTRIBUTING.md	0		1	100	20	13
+wandb/helm-charts	aivendor	25	1	AGENTS.md;CLAUDE.md	0		0	100	13	0
+wandb/operator	aivendor	10	1	CLAUDE.md	0		0	100	28	8
+wandb/senpai	aivendor	31	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	3	6
+wandb/terraform-azurerm-wandb	aivendor	5	0		0		0	100	0	0
+wandb/wandb	aivendor	11239	1	CONTRIBUTING.md	0		0	100	2	0
+wandb/wandb-workspaces	aivendor	28	1	CONTRIBUTING.md	0		0	100	6	3
+wandb/weave	aivendor	1121	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	18	0
+DataDog/code-review-action	bigtech	2	1	CONTRIBUTING.md	0		0	30	1	0
+DataDog/datadog-agent	bigtech	3712	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	10	0
+DataDog/datadog-agent-buildimages	bigtech	17	0		0		0	100	3	1
+DataDog/dd-sdk-android	bigtech	227	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	9	0
+DataDog/dd-trace-php	bigtech	558	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	10	7
+DataDog/dd-trace-py	bigtech	648	1	AGENTS.md	0		1	100	19	7
+DataDog/dd-trace-rb	bigtech	415	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	10	4
+DataDog/java-profiler	bigtech	33	1	AGENTS.md	0		1	100	37	31
+DataDog/sdlc-gitops-sample-stack	bigtech	12	1	CONTRIBUTING.md	0		0	24	0	0
+DataDog/terraform-aws-ecs-datadog	bigtech	7	0		0		0	61	1	0
+IBM/SovereignCore	bigtech	2	0		0		0	17	0	12
+IBM/cloud-pak	bigtech	148	0		0		0	100	0	26
+IBM/cloud-pak-deployer	bigtech	162	0		0		0	100	0	63
+IBM/event-notifications-go-admin-sdk	bigtech	2	1	CONTRIBUTING.md	0		0	77	0	45
+IBM/ibm-storage-odf-operator	bigtech	5	0		0		0	100	0	93
+IBM/ibm-vpc-file-csi-driver	bigtech	4	0		0		0	100	0	76
+IBM/ibmcloud-object-storage-plugin	bigtech	56	0		0		0	100	0	6
+IBM/project-ai-services	bigtech	56	1	CONTRIBUTING.md	0		0	100	0	100
+NVIDIA/Megatron-LM	bigtech	17574	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	12	100
+NVIDIA/Model-Optimizer	bigtech	3477	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	31	98
+NVIDIA/NVSentinel	bigtech	375	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	14	65
+NVIDIA/NemoClaw	bigtech	22266	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	10	90
+NVIDIA/TensorRT-LLM	bigtech	14470	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	6	100
+NVIDIA/cuda-quantum	bigtech	1118	0		0		0	100	5	100
+NVIDIA/cudf-spark	bigtech	997	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0		0	100	2	99
+NVIDIA/cudnn-frontend	bigtech	915	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	45	11
+NVIDIA/cuopt	bigtech	1026	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0		0	100	12	43
+NVIDIA/elements	bigtech	80	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	0	100
+NVIDIA/infra-controller	bigtech	257	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	4	64
+NVIDIA/k8s-driver-manager	bigtech	56	1	CONTRIBUTING.md	0		0	100	0	100
+NVIDIA/makani	bigtech	398	0		0		0	100	15	0
+NVIDIA/nvcf	bigtech	199	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	7	64
+SAP/ai-assisted-github-actions	bigtech	9	1	CONTRIBUTING.md	0		1	100	0	0
+SAP/astonish	bigtech	20	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	0	60
+SAP/btp-environment-variable-access	bigtech	23	1	CONTRIBUTING.md	0		1	100	0	63
+SAP/cloud-sdk-ios-fiori	bigtech	134	1	CONTRIBUTING.md	0		0	100	0	0
+SAP/crossplane-provider-btp	bigtech	26	1	CONTRIBUTING.md	0		1	100	1	19
+SAP/redis-operator	bigtech	18	1	CONTRIBUTING.md	0		1	100	0	1
+SAP/sailing-analytics	bigtech	34	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	1	1	1	27	2	1
+SAP/spartacus	bigtech	783	1	CONTRIBUTING.md	0		0	100	1	9
+Shopify/cli	bigtech	733	1	AGENTS.md;CONTRIBUTING.md	0		0	100	41	0
+Shopify/hansel	bigtech	26	1	CONTRIBUTING.md	0		0	100	0	99
+Shopify/product-taxonomy	bigtech	345	0		0		0	100	28	3
+Shopify/spoom	bigtech	271	0		0		0	100	6	57
+Shopify/tecnix	bigtech	6	1	CLAUDE.md;CONTRIBUTING.md	0		0	29	3	3
+adobe/aem-core-forms-components	bigtech	36	1	.github/CONTRIBUTING.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	26	0
+adobe/aem-desktop	bigtech	2	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	29	28	1
+adobe/aio-e2e-tests	bigtech	5	1	.github/CONTRIBUTING.md	0		0	79	2	20
+adobe/data	bigtech	11	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0		0	100	84	0
+adobe/mysticat-ci	bigtech	1	0		0		0	18	9	0
+adobe/react-spectrum	bigtech	15814	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	2	0
+adobe/skills	bigtech	169	1	CONTRIBUTING.md	0		1	100	49	3
+adobe/spacecat-api-service	bigtech	10	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	77	0
+adobe/spectrum-web-components	bigtech	1530	1	AGENTS.md;CONTRIBUTING.md	0		0	100	26	0
+atlassian/atlascode	bigtech	128	1	AGENTS.md;CONTRIBUTING.md	0		0	100	0	0
+atlassian/atlassian-mcp-server	bigtech	983	1	CONTRIBUTING.md	0		0	42	2	0
+atlassian/data-center-helm-charts	bigtech	179	1	CONTRIBUTING.md	0		0	100	0	2
+atlassian/forge-skills	bigtech	20	1	CONTRIBUTING.md	0		0	10	1	0
+atlassian/go-sentry-api	bigtech	55	0		0		0	29	0	1
+atlassian/openapi-request-validator	bigtech	12	1	AGENTS.md;CONTRIBUTING.md	0		0	2	0	0
+atlassian/pragmatic-drag-and-drop	bigtech	12738	1	CONTRIBUTING.md	0		0	1	0	0
+atlassian/twg-cli	bigtech	12	1	AGENTS.md;CONTRIBUTING.md	0		0	2	0	0
+cloudflare/agents	bigtech	5484	1	AGENTS.md	0		1	100	4	0
+cloudflare/cloudflare-docs	bigtech	5133	1	AGENTS.md;CONTRIBUTING.md	0		0	100	2	1
+cloudflare/cloudflare-os	bigtech	9133	1	AGENTS.md;CONTRIBUTING.md	0		0	97	12	8
+cloudflare/pingora	bigtech	27268	1	.github/CONTRIBUTING.md	0		0	100	1	11
+cloudflare/python-workers-examples	bigtech	304	0		0		0	52	0	0
+cloudflare/svg-hush	bigtech	428	0		0		0	8	0	1
+cloudflare/workerd	bigtech	8636	1	AGENTS.md;CONTRIBUTING.md	0		0	100	3	7
+cloudflare/workers-py	bigtech	98	1	AGENTS.md;CONTRIBUTING.md	0		0	100	1	2
+cloudflare/workers-sdk	bigtech	4469	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	6	19
+elastic/apm-agent-python	bigtech	430	1	CONTRIBUTING.md	0		0	100	10	56
+elastic/built-docs	bigtech	47	0		0		0	16	0	0
+elastic/connectors	bigtech	133	0		0		0	100	52	0
+elastic/docs-content	bigtech	47	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md	0		1	100	42	0
+elastic/ecs-logging-php	bigtech	21	1	CONTRIBUTING.md	0		0	63	1	2
+elastic/elastic-docs-skills	bigtech	71	1	CLAUDE.md;CONTRIBUTING.md	0		1	80	39	0
+elastic/elasticsearch	bigtech	77860	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	2	0
+elastic/eui	bigtech	6344	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	18	0
+elastic/highlightjs-esql	bigtech	4	1	CONTRIBUTING.md	0		0	100	0	0
+elastic/integrations	bigtech	332	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	20	8
+elastic/kibana	bigtech	21255	1	AGENTS.md;CONTRIBUTING.md	0		1	100	45	0
+elastic/oblt-cli-buildkite-plugin	bigtech	0	0		0		0	75	7	19
+elastic/terraform-provider-elasticstack	bigtech	208	1	AGENTS.md;CLAUDE.md	0		0	100	45	3
+github/awesome-copilot	bigtech	38211	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0		1	100	31	4
+github/docs	bigtech	20726	1	.github/CONTRIBUTING.md	0		0	100	60	8
+github/forgoodfirstissue	bigtech	243	1	CONTRIBUTING.md	0		0	100	2	50
+github/gh-aw	bigtech	4992	1	AGENTS.md;CONTRIBUTING.md	0		1	100	14	0
+github/gh-aw-actions	bigtech	43	1	AGENTS.md;CONTRIBUTING.md	0		1	100	1	0
+github/gh-aw-firewall	bigtech	136	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	68	0
+github/gh-stack	bigtech	1361	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0		0	100	19	15
+github/go-spdx	bigtech	52	1	CONTRIBUTING.md	0		0	100	3	27
+github/markdownlint-github	bigtech	101	1	CONTRIBUTING.md	0		0	100	1	82
+github/storybook-addon-performance-panel	bigtech	422	1	CONTRIBUTING.md	0		0	100	2	60
+gitlab-org/...	bigtech	0	0		0		0	0	0	0
+gitlab-org/gitlab-ce	bigtech	1	0		0		0	0	0	0
+hashicorp/consul	bigtech	30040	1	.github/CONTRIBUTING.md	0		0	100	1	9
+hashicorp/consul-k8s	bigtech	708	1	CONTRIBUTING.md	0		0	100	6	7
+hashicorp/consul-template	bigtech	4824	1	.github/CONTRIBUTING.md	0		0	100	0	21
+hashicorp/design-system	bigtech	512	1	.github/copilot-instructions.md;AGENTS.md	0		0	100	9	7
+hashicorp/nomad-driver-podman	bigtech	22	0		0		0	100	0	49
+hashicorp/setup-copywrite	bigtech	6	0		0		0	54	0	29
+hashicorp/terraform-aws-consul-ecs	bigtech	55	0		0		0	100	0	39
+hashicorp/terraform-provider-aws	bigtech	11047	1	.github/copilot-instructions.md;AGENTS.md	0		0	100	9	10
+intel/auto-round	bigtech	1585	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	6	84
+intel/intel-graphics-compiler	bigtech	714	1	CONTRIBUTING.md	0		0	4	0	1
+intel/intel-xpu-backend-for-triton	bigtech	266	1	.github/copilot-instructions.md;AGENTS.md;CONTRIBUTING.md	0		1	100	36	27
+intel/kvm-multios	bigtech	14	1	CONTRIBUTING.md	0		0	30	0	30
+intel/llvm	bigtech	1516	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	16	15
+intel/neural-compressor	bigtech	2703	1	.github/copilot-instructions.md	0		0	100	9	93
+intel/torch-xpu-ops	bigtech	105	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	7	8
+mongodb/docs	bigtech	775	1	.github/copilot-instructions.md;CLAUDE.md	0		0	100	0	0
+mongodb/kingfisher	bigtech	1214	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	8	17
+mongodb/mongo	bigtech	28502	1	.github/copilot-instructions.md	0		0	100	0	1
+mongodb/mongodb-atlas-cli	bigtech	186	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	0	51
+mongodb/mongodb-cli	bigtech	7	1	CONTRIBUTING.md	0		0	89	0	74
+mongodb/mongodb-kubernetes	bigtech	211	1	CONTRIBUTING.md	0		0	100	8	25
+mongodb/node-mongodb-native	bigtech	10174	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	10	6
+mongodb/openapi	bigtech	18	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	3	74
+oracle/graal	bigtech	21671	1	AGENTS.md;CONTRIBUTING.md	0		1	100	0	0
+oracle/graalvm-reachability-metadata	bigtech	475	1	AGENTS.md;CLAUDE.md	0		0	100	1	4
+oracle/javavscode	bigtech	316	1	CONTRIBUTING.md	0		1	100	0	3
+oracle/rust-oracledb	bigtech	14	1	CONTRIBUTING.md	0		0	0	0	0
+oracle/weblogic-azure	bigtech	13	1	CONTRIBUTING.md	0		0	100	0	44
+oracle/weblogic-deploy-tooling	bigtech	166	1	CONTRIBUTING.md	0		0	100	0	18
+oracle/weblogic-kubernetes-operator	bigtech	267	1	CONTRIBUTING.md	0		0	100	0	56
+oracle/weblogic-toolkit-ui	bigtech	29	1	CONTRIBUTING.md	0		0	100	0	2
+salesforce/AgentforceMobileSDK-Android	bigtech	7	1	CONTRIBUTING.md	0		0	1	0	0
+salesforce/AgentforceMobileSDK-iOS	bigtech	15	1	CONTRIBUTING.md	0		0	11	0	0
+salesforce/carbonj	bigtech	28	1	CLAUDE.md	0		0	100	1	62
+salesforce/financial-services-agentic-advisor	bigtech	0	1	CONTRIBUTING.md	0		0	15	3	0
+salesforce/lwc	bigtech	1786	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	12	60
+salesforce/multicloudj	bigtech	81	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	0	0
+salesforce/sf-pi	bigtech	91	1	AGENTS.md;CONTRIBUTING.md	0		1	100	0	7
+salesforce/zana	bigtech	3	1	CLAUDE.md;CONTRIBUTING.md	0		1	64	4	22
+spotify/ads-agentic-tools	bigtech	14	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	42	32	0
+spotify/confidence-ai-plugins	bigtech	8	1	CLAUDE.md	0		0	61	45	0
+spotify/confidence-cli	bigtech	0	1	AGENTS.md;CLAUDE.md	0		0	36	1	0
+spotify/confidence-resolver	bigtech	14	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	65	15
+spotify/confidence-sdk-android	bigtech	12	1	CONTRIBUTING.md	0		0	100	14	1
+spotify/flink-on-k8s-operator	bigtech	225	1	CONTRIBUTING.md	0		0	100	2	62
+spotify/pedalboard	bigtech	6276	1	CONTRIBUTING.md	0		0	100	1	0
+spotify/spotify.github.io	bigtech	135	0		0		0	14	0	6
+twilio/sdk-actions	bigtech	0	1	CONTRIBUTING.md	0		0	15	4	0
+twilio/twilio-csharp	bigtech	710	1	CONTRIBUTING.md	0		0	100	0	0
+twilio/twilio-java	bigtech	523	1	CONTRIBUTING.md	0		0	100	5	2
+twilio/twilio-oai	bigtech	169	0		0		0	69	0	0
+twilio/twilio-oai-generator	bigtech	31	1	CONTRIBUTING.md	0		0	100	7	2
+twilio/twilio-ruby	bigtech	1390	1	CONTRIBUTING.md	0		0	100	1	0
+twilio/twilio-video-node	bigtech	1	1	CONTRIBUTING.md	0		0	22	4	0
+twilio/twilio-voice-react-native	bigtech	100	1	CONTRIBUTING.md	0		0	100	1	0
+vercel/ai	bigtech	26401	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	12	2
+vercel/eve	bigtech	4788	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	2	81
+vercel/next.js	bigtech	141925	1	AGENTS.md;CLAUDE.md	0		0	100	3	0
+vercel/sdk	bigtech	159	1	.github/CONTRIBUTING.md;CONTRIBUTING.md	0		0	100	21	0
+vercel/turborepo	bigtech	31007	1	AGENTS.md;CONTRIBUTING.md	0		0	100	13	0
+vercel/vercel	bigtech	16142	1	.github/CONTRIBUTING.md;AGENTS.md	0		0	100	16	5
+vercel/vercel-py	bigtech	24	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	1	0
+vercel/workflow	bigtech	2348	1	AGENTS.md;CLAUDE.md	0		1	100	32	50
+Adyen/adyen-android	finance	148	1	AGENTS.md	0		0	100	1	0
+Adyen/adyen-flutter	finance	30	1	AGENTS.md	0		1	100	5	0
+Adyen/adyen-java-api-library	finance	146	1	AGENTS.md;CONTRIBUTING.md	0		0	100	1	0
+Adyen/adyen-node-api-library	finance	138	1	AGENTS.md;CONTRIBUTING.md	0		0	100	1	0
+Adyen/adyen-platform-experience-web	finance	8	1	AGENTS.md;CONTRIBUTING.md	0		0	100	3	0
+Adyen/adyen-react-native	finance	71	1	AGENTS.md;CONTRIBUTING.md	0		0	100	5	13
+Adyen/adyen-salesforce-headless-commerce-pwa	finance	10	1	AGENTS.md	0		0	100	0	0
+Adyen/adyen-web	finance	254	0		0		0	100	7	1
+Affirm/Magento2_Affirm	finance	12	0		0		0	100	0	0
+Affirm/Salesforce_Commerce_Cloud_Affirm	finance	1	0		0		0	54	0	9
+Affirm/affirm-merchant-sdk-android	finance	2	0		0		0	100	0	0
+Affirm/affirm-merchant-sdk-ios	finance	4	1	CLAUDE.md	0		0	100	0	0
+Barclays/research_data_science	finance	19	0		0		0	8	0	0
+Citi/OQC-PINN	finance	0	0		0		0	0	0	0
+Citi/Quantum-ORNL	finance	0	0		0		0	0	0	0
+Citi/coding-workshop-participant	finance	14	1	CONTRIBUTING.md	0		0	60	0	13
+MercuryTechnologies/buck2-haskell	finance	2	0		0		0	0	0	0
+MercuryTechnologies/ghc-persistent-worker	finance	7	0		0		0	38	0	0
+MercuryTechnologies/hs-temporal-sdk	finance	69	1	AGENTS.md	0		0	100	1	0
+MercuryTechnologies/postgresql-simple-interval	finance	2	0		0		0	76	1	43
+MercuryTechnologies/signet	finance	3	0		0		0	65	0	43
+MercuryTechnologies/slacklinker	finance	14	0		0		0	48	0	0
+MercuryTechnologies/snowydeer	finance	30	0		0		0	0	0	0
+Nasdaq/NasdaqCloudDataService-REST-API	finance	62	0		0		0	15	0	0
+Nasdaq/NasdaqCloudDataService-SDK-Java	finance	98	0		0		0	34	0	0
+Nasdaq/NasdaqCloudDataService-SDK-Python	finance	99	0		0		0	42	0	0
+Nasdaq/active_record_proxy_adapters	finance	84	0		0		0	100	1	62
+Nasdaq/nasdaq-protocols	finance	10	0		0		0	52	0	0
+Nasdaq/ndlbulkdownload	finance	8	0		0		0	0	0	0
+block/berd	finance	755	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	5	18
+block/builderbot	finance	81	0		0		0	100	46	91
+block/buzz	finance	30546	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	8	88
+block/coplan	finance	30	1	AGENTS.md	0		1	100	41	0
+block/pg-sprite	finance	4	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	55	0	0
+block/proto-fleet	finance	52	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	20	1
+block/schemabot	finance	27	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	61	0
+block/spirit	finance	199	1	.github/CONTRIBUTING.md;AGENTS.md	0		0	100	81	8
+bloomberg/bde	finance	1838	0		0		0	56	0	7
+bloomberg/blazingmq	finance	3208	1	CONTRIBUTING.md	0		0	100	0	100
+bloomberg/blazingmq-sdk-java	finance	34	0		0		0	86	1	78
+bloomberg/pushiko	finance	8	0		0		0	100	0	98
+bloomberg/selekt	finance	58	0		0		0	100	0	99
+brexhq/CrabTrap	finance	764	1	AGENTS.md;CONTRIBUTING.md	0		1	20	12	0
+brexhq/bazel-kotlin-vscode-extension	finance	15	0		0		0	71	2	0
+brexhq/pyrefchecker	finance	0	0		0		0	0	0	0
+brexhq/runtime-agnostic-ai-workflows	finance	0	0		0		0	0	0	0
+brexhq/terraform-exec	finance	0	1	CONTRIBUTING.md	0		0	0	0	0
+capitalone/Stratum-Observability	finance	27	1	CONTRIBUTING.md	0		0	33	0	1
+capitalone/VulnHunter	finance	947	1	CONTRIBUTING.md	0		0	10	6	0
+capitalone/acronym-decoder	finance	47	0		0		0	49	1	15
+capitalone/context-specs	finance	39	0		0		0	8	2	0
+capitalone/datacompy	finance	658	1	CLAUDE.md	0		0	100	0	0
+capitalone/edgetest	finance	26	0		0		0	95	0	0
+capitalone/locopy	finance	114	0		0		0	100	0	3
+capitalone/rubicon-ml	finance	140	0		0		0	100	0	0
+checkout/checkout-risk-sdk-android	finance	3	1	CONTRIBUTING.md	0		0	29	0	0
+checkout/checkout-sdk-go	finance	19	0		0		0	100	1	0
+checkout/checkout-sdk-java	finance	27	0		0		0	100	1	0
+checkout/checkout-sdk-net	finance	27	0		0		0	100	0	0
+checkout/checkout-sdk-php	finance	56	0		0		0	100	0	0
+checkout/checkout-sdk-python	finance	18	0		0		0	100	0	0
+checkout/checkout-sdk-ruby	finance	11	0		0		0	100	0	0
+checkout/checkout-woocommerce-plugin	finance	17	0		0		0	100	5	1
+chime/mani-diffy	finance	46	0		0		0	12	2	1
+chime/terraform-aws-alternat	finance	1261	0		0		0	100	0	9
+circlefin/arc-remote-signer	finance	9	0		0		0	4	0	0
+circlefin/circle-cctp-crosschain-transfer	finance	19	0		0		0	77	0	42
+circlefin/docs-examples	finance	2	1	CONTRIBUTING.md	0		0	2	0	0
+circlefin/formal-tendermint	finance	0	1	CONTRIBUTING.md	0		0	4	0	0
+circlefin/onramp-kit-demo	finance	0	0		0		0	0	0	0
+circlefin/payments-sample-app	finance	17	0		0		0	100	12	8
+circlefin/sidequestor	finance	2	1	CONTRIBUTING.md	0		0	3	2	0
+circlefin/skills	finance	144	1	CONTRIBUTING.md	0		0	14	0	0
+coinbase/agentkit	finance	1285	1	CONTRIBUTING.md	0		1	100	3	1
+coinbase/cb-mpc	finance	490	1	CONTRIBUTING.md	0		0	65	3	6
+coinbase/cdp-sdk	finance	195	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	15	0
+coinbase/cds	finance	495	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	41	0
+coinbase/coinbase-business-magento	finance	8	1	CONTRIBUTING.md	0		0	9	2	0
+coinbase/prime-sdk-ts	finance	1	1	CONTRIBUTING.md	0		0	6	1	0
+coinbase/stable-swapper	finance	1	1	CONTRIBUTING.md	0		0	19	1	1
+finos/.github	finance	0	0		0		0	100	0	1
+finos/fluxnova-release-parent	finance	7	0		0		0	11	0	0
+finos/fluxnova-testing-framework	finance	1	1	CONTRIBUTING.md	0		0	2	0	1
+finos/git-proxy	finance	241	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	1	44
+finos/legend-engine	finance	111	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	0	0
+finos/morphir	finance	204	1	AGENTS.md;CLAUDE.md	1	0	1	100	0	22
+finos/morphir-rust	finance	2	1	AGENTS.md;CONTRIBUTING.md	0		1	57	2	1
+finos/morphir-scala	finance	17	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	11	1
+hsbc/bqtools	finance	6	0		0		0	34	0	2
+hsbc/cost-manager	finance	19	1	CONTRIBUTING.md	0		0	42	0	3
+hsbc/cranker-connector	finance	26	0		0		0	11	0	0
+hsbc/encryption-helper-python	finance	3	0		0		0	41	0	0
+hsbc/go-api-pagination	finance	5	0		0		0	55	0	5
+hsbc/jdbc-inquirer	finance	2	0		0		0	27	0	24
+hsbc/mrpusa	finance	9	0		0		0	0	0	0
+hsbc/mu-cranker-router	finance	30	0		0		0	10	0	1
+ing-bank/INGenious	finance	168	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	0	0
+ing-bank/baker	finance	359	0		0		0	100	4	0
+ing-bank/cassandra-jdbc-wrapper	finance	112	1	CONTRIBUTING.md	0		0	24	0	0
+ing-bank/envoy-mcp-openapi-processor	finance	9	0		0		0	23	0	10
+ing-bank/golibs	finance	10	1	CONTRIBUTING.md	0		0	2	0	0
+ing-bank/ingenious-doc	finance	0	0		0		0	72	0	0
+ing-bank/lion	finance	1960	1	CONTRIBUTING.md	0		0	100	0	22
+ing-bank/vscode-psl	finance	20	0		0		0	83	0	19
+janestreet/PS7CompatibilityRules	finance	16	0		0		0	0	0	0
+janestreet/asic-puzzle-2026	finance	264	0		0		0	0	0	0
+janestreet/magic-trace	finance	6245	1	CONTRIBUTING.md	0		0	100	0	71
+jpmorganchase/PADL	finance	22	1	CONTRIBUTING.md	0		0	7	0	0
+jpmorganchase/dataquery-sdk	finance	5	1	CONTRIBUTING.md	0		0	51	2	0
+jpmorganchase/mosaic	finance	26	0		0		0	100	0	63
+jpmorganchase/nbcelltests	finance	97	1	CONTRIBUTING.md	0		0	100	0	81
+jpmorganchase/python-training	finance	13958	0		0		0	28	0	7
+jpmorganchase/qReduMIS	finance	5	0		0		0	0	0	0
+jpmorganchase/salesforce-b2c	finance	5	0		0		0	3	0	0
+jpmorganchase/salt-ds	finance	205	1	CONTRIBUTING.md	0		0	100	2	14
+klarna/SAP-Commerce-klarna-payments	finance	0	0		0		0	12	0	0
+klarna/erlavro	finance	139	0		0		0	86	0	0
+klarna/klarna-mobile-sdk-android	finance	8	1	CONTRIBUTING.md	0		0	41	0	0
+klarna/klarna-mobile-sdk-flutter	finance	12	0		0		0	28	0	0
+klarna/klarna-mobile-sdk-ios	finance	5	1	CONTRIBUTING.md	0		0	19	0	0
+klarna/klarna-mobile-sdk-spm	finance	2	0		0		0	2	0	0
+klarna/react-native-klarna-inapp-sdk	finance	27	1	CONTRIBUTING.md	0		0	100	0	1
+klarna/sfcc-klarna-payments	finance	4	0		0		0	23	0	0
+marqeta/local-store	finance	1	1	CONTRIBUTING.md	0		0	0	0	0
+marqeta/marqeta-mcp	finance	3	0		0		0	12	0	0
+marqeta/marqeta-openapi	finance	8	0		0		0	0	0	0
+marqeta/pr-bot	finance	3	0		0		0	38	0	0
+marqeta/sproutify-web	finance	2	0		0		0	0	0	0
+monzo/aws-nitro-util	finance	47	0		0		0	22	0	0
+monzo/docs	finance	117	1	CONTRIBUTING.md	0		0	100	4	8
+monzo/egress-operator	finance	261	0		0		0	29	0	0
+monzo/slog	finance	50	0		0		0	21	0	0
+monzo/terrors	finance	88	0		0		0	46	0	0
+monzo/typhon	finance	788	0		0		0	100	0	0
+morganstanley/.github	finance	0	0		0		0	3	1	0
+morganstanley/ComposeUI	finance	75	1	CONTRIBUTING.md	0		0	100	3	88
+morganstanley/Crossroads	finance	11	1	CONTRIBUTING.md	0		0	100	1	92
+morganstanley/eslint-plugin-externalincludes	finance	1	1	CONTRIBUTING.md	0		0	100	0	98
+morganstanley/hobbes	finance	1226	1	AGENTS.md;CONTRIBUTING.md	0		0	100	53	10
+morganstanley/message-broker	finance	22	1	CONTRIBUTING.md	0		0	100	0	90
+morganstanley/morganstanley.github.io	finance	1	0		0		0	100	0	88
+morganstanley/testplan	finance	210	0		0		0	100	12	2
+plaid/plaid-java	finance	148	1	CONTRIBUTING.md	0		0	100	0	0
+plaid/plaid-link-flutter	finance	0	1	CONTRIBUTING.md	0		0	30	10	6
+plaid/plaid-node	finance	585	1	CONTRIBUTING.md	0		0	100	0	0
+plaid/plaid-python	finance	518	1	CONTRIBUTING.md	0		0	100	0	0
+plaid/plaid-ruby	finance	246	1	CONTRIBUTING.md	0		0	100	0	0
+plaid/quickstart	finance	743	0		0		0	100	20	5
+plaid/react-native-plaid-link-sdk	finance	200	1	CONTRIBUTING.md	0		0	100	5	47
+plaid/sandbox-custom-users	finance	76	0		0		0	15	1	0
+revolut-engineering/jooq-plugin	finance	80	0		0		0	3	0	0
+revolut-engineering/magento2-hyva-compatibility	finance	0	0		0		0	0	0	0
+revolut-engineering/revolut-agent-skills	finance	5	0		0		0	2	0	0
+revolut-engineering/revolut-checkout	finance	33	0		0		0	73	0	0
+revolut-engineering/revolut-checkout-example	finance	15	0		0		0	9	0	0
+revolut-engineering/revolut-magento2-releases	finance	1	0		0		0	0	0	0
+revolut-engineering/revolut-openapi	finance	62	0		0		0	0	0	0
+revolut-engineering/revolut-x-api	finance	54	1	AGENTS.md;CONTRIBUTING.md	0		0	60	0	0
+santander/FiestaSantander2015	finance	0	0		0		0	0	0	0
+santander/Santander-Api-Wrapper	finance	1	0		0		0	0	0	0
+santander/santander.github.io	finance	0	0		0		0	0	0	0
+square/kotlinpoet	finance	4157	0		0		0	100	0	0
+square/leakcanary	finance	29985	1	.github/CONTRIBUTING.md;AGENTS.md;CLAUDE.md	0		0	100	77	0
+square/luks2crypt	finance	50	0		0		0	100	1	80
+square/mobile-payments-sdk-android	finance	9	0		0		0	27	1	0
+square/mobile-payments-sdk-react-native	finance	16	1	CLAUDE.md;CONTRIBUTING.md	0		0	53	5	0
+square/wire	finance	4427	1	CONTRIBUTING.md	0		0	100	2	5
+square/workflow-kotlin	finance	1120	1	AGENTS.md;CONTRIBUTING.md	0		0	100	23	25
+square/workflow-swift	finance	369	1	CONTRIBUTING.md	0		0	100	3	2
+stripe/link-cli	finance	705	1	CLAUDE.md;CONTRIBUTING.md	0		0	100	19	2
+stripe/stripe-android	finance	1534	1	AGENTS.md;CLAUDE.md	0		0	100	78	0
+stripe/stripe-ios	finance	2563	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	53	0
+stripe/stripe-java	finance	998	1	CONTRIBUTING.md	0		0	100	11	0
+stripe/stripe-node	finance	4490	1	CONTRIBUTING.md	0		0	100	37	8
+stripe/stripe-php	finance	4018	1	CONTRIBUTING.md	0		0	100	9	0
+stripe/stripe-python	finance	2034	1	CONTRIBUTING.md	0		0	100	13	0
+stripe/stripe-ruby	finance	2162	1	CONTRIBUTING.md	0		0	100	22	0
+transferwise/cicada	finance	5	1	AGENTS.md;CLAUDE.md	0		0	60	1	5
+transferwise/cloudflare-prometheus-exporter	finance	16	1	CONTRIBUTING.md	0		0	28	1	20
+transferwise/envoy-api-java	finance	0	0		0		0	19	0	0
+transferwise/pipelinewise	finance	659	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	5	10
+transferwise/tw-experimentation	finance	5	0		0		0	20	0	0
+transferwise/wise-envoy-xds	finance	3	0		0		0	9	0	4
+transferwise/wise-pizza	finance	116	0		0		0	25	0	1
+unit-finance/action-runner	finance	1	0		0		0	14	1	0
+unit-finance/getting-started-examples	finance	0	0		0		0	0	0	0
+unit-finance/unit-ios-components-pod	finance	0	0		0		0	3	0	0
+unit-finance/unit-ios-sdk	finance	0	0		0		0	10	0	0
+unit-finance/unit-node-sdk	finance	43	0		0		0	100	3	0
+unit-finance/unit-openapi-ruby-sdk	finance	0	0		0		0	4	0	0
+unit-finance/unit-python-sdk	finance	24	0		0		0	100	0	0
+18F/analytics-reporter	gov	665	1	CONTRIBUTING.md	0		0	100	4	40
+18F/doj-atr-prototype	gov	2	0		0		0	73	0	59
+18F/fedramp-data	gov	41	1	CONTRIBUTING.md	0		0	31	0	0
+18F/identity-dashboard	gov	29	1	CONTRIBUTING.md	0		0	100	0	10
+18F/identity-design-system	gov	32	1	CONTRIBUTING.md	0		0	100	0	7
+18F/identity-idp	gov	586	1	CONTRIBUTING.md	0		0	100	0	0
+18F/identity-reporting-rails	gov	2	1	AGENTS.md;CONTRIBUTING.md	0		0	6	0	2
+18F/identity-terraform	gov	21	0		0		0	100	0	0
+DSACMS/MedicareClaimsPricerSource	gov	3	1	CONTRIBUTING.md	0		0	1	0	0
+DSACMS/automated-codejson-generator	gov	10	1	CONTRIBUTING.md	0		0	46	1	15
+DSACMS/codejson-core	gov	0	1	CONTRIBUTING.md	0		0	1	0	0
+DSACMS/codejson-generator	gov	2	1	CONTRIBUTING.md	0		0	50	0	33
+DSACMS/fdsh-utils	gov	0	1	CONTRIBUTING.md	0		0	8	0	0
+DSACMS/iv-cbv-payroll	gov	26	1	AGENTS.md;CONTRIBUTING.md	0		0	100	6	54
+DSACMS/repo-scaffolder	gov	48	1	CONTRIBUTING.md	0		0	100	1	71
+GSA/datagov-11ty	gov	20	1	CONTRIBUTING.md	0		0	100	0	64
+GSA/datagov-harvester	gov	30	1	CONTRIBUTING.md	0		0	100	13	26
+GSA/digital-gov-drupal	gov	16	1	CONTRIBUTING.md	0		0	100	0	33
+GSA/sam-ui-elements	gov	8	1	CONTRIBUTING.md	0		0	100	0	5
+GSA/site-scanning-analysis	gov	15	1	AGENTS.md;CLAUDE.md	0		0	30	0	0
+GSA/site-scanning-engine	gov	32	1	AGENTS.md;CLAUDE.md	0		0	100	0	25
+GSA/site-scanning-viewer	gov	4	0		0		0	0	0	0
+GSA/touchpoints	gov	66	0		0		0	100	4	40
+alphagov/datagovuk	gov	6	1	CLAUDE.md	0		0	100	0	27
+alphagov/gds-api-adapters	gov	21	0		0		0	100	0	49
+alphagov/govuk-infrastructure	gov	196	0		0		0	100	0	0
+alphagov/publishing-api	gov	44	0		0		0	0	0	0
+alphagov/search-admin	gov	5	0		0		0	100	0	87
+alphagov/signon	gov	97	0		0		0	100	0	80
+alphagov/support	gov	13	0		0		0	100	0	78
+alphagov/transition	gov	14	0		0		0	100	0	87
+cisagov/Malcolm	gov	2494	0		0		0	100	2	19
+cisagov/XFD	gov	30	1	CONTRIBUTING.md	0		0	100	0	0
+cisagov/dotgov-data	gov	329	0		0		0	100	0	0
+cisagov/get.gov	gov	35	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	1	18
+cisagov/manage.get.gov	gov	87	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	0	5
+cisagov/publish-egress-ip-lambda	gov	6	1	CONTRIBUTING.md	0		0	37	1	29
+cisagov/vulnrichment	gov	845	1	CONTRIBUTING.md	0		0	43	0	14
+nasa/aegis	gov	6	1	CLAUDE.md	0		0	0	0	0
+nasa/cFS	gov	1466	1	CONTRIBUTING.md	0		0	100	0	0
+nasa/cml	gov	10	1	CONTRIBUTING.md	0		1	17	0	0
+nasa/hds-core	gov	13	1	.github/copilot-instructions.md;AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	3	66
+nasa/ogma	gov	574	0		0		0	100	0	0
+nasa/opera-sds-lambdas	gov	5	0		0		0	59	0	16
+nasa/opera-sds-pcm	gov	31	0		0		0	100	1	0
+nasa/spacewasm	gov	1494	1	CONTRIBUTING.md	0		0	100	2	0
+usds/discovery-sprint-guide	gov	13	0		0		0	23	0	15
+usds/ditap-curriculum-update	gov	17	0		0		0	100	0	90
+usds/gatsby-uswds-ts-starter	gov	2	0		0		0	29	0	0
+usds/newSite2026	gov	0	0		0		0	0	0	0
+usds/playbook	gov	1593	0		0		0	48	0	0
+usds/techfar-hub-website-v3	gov	3	0		0		0	67	0	0
+usds/usds-new-site-2026	gov	0	0		0		0	0	0	0
+usds/website	gov	107	1	CONTRIBUTING.md	0		0	100	1	0
+CMSgov/ab2d	healthcare	19	1	.github/CONTRIBUTING.md;CONTRIBUTING.md	0		0	100	2	0
+CMSgov/bcda-app	healthcare	60	1	CONTRIBUTING.md	0		0	100	0	5
+CMSgov/beneficiary-fhir-data	healthcare	84	1	CONTRIBUTING.md	0		0	100	0	5
+CMSgov/bluebutton-web-server	healthcare	51	1	CONTRIBUTING.md	0		0	100	2	11
+CMSgov/cdap	healthcare	2	1	.github/CONTRIBUTING.md;CONTRIBUTING.md	0		0	100	3	0
+CMSgov/design-system	healthcare	363	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	3	5
+CMSgov/qpp-measures-data	healthcare	96	1	.github/copilot-instructions.md;CONTRIBUTING.md	0		0	100	1	0
+CMSgov/qpp-submissions-docs	healthcare	8	1	.github/CONTRIBUTING.md	0		0	100	1	29
+HL7/DEV.SDPi	healthcare	0	0		0		0	0	0	0
+HL7/cdc-opioid-cpg	healthcare	0	0		0		0	22	0	0
+HL7/davinci-deqm	healthcare	8	0		0		0	100	0	0
+HL7/davinci-pdex-plan-net	healthcare	6	0		0		0	100	0	0
+HL7/fhir-cqm	healthcare	2	0		0		0	89	0	0
+HL7/fhir-tx-ecosystem-ig	healthcare	4	0		0		0	58	3	0
+HL7/us-fhir-ps	healthcare	2	0		0		0	3	0	0
+HL7/v2ig	healthcare	0	1	CLAUDE.md	0		0	19	0	0
+biothings/annotation-hub	healthcare	0	0		0		0	5	0	0
+biothings/biothings.api	healthcare	53	1	CONTRIBUTING.md	0		0	100	1	0
+biothings/biothings_annotator	healthcare	2	0		0		0	78	2	0
+biothings/discovery-app	healthcare	5	0		0		0	100	2	0
+biothings/mychem.info	healthcare	20	0		0		0	82	1	0
+biothings/mygene.info	healthcare	133	0		0		0	31	0	0
+biothings/myvariant.info	healthcare	97	0		0		0	69	0	0
+biothings/trapi-testing-tools	healthcare	1	1	AGENTS.md	0		0	0	0	0
+medplum/medplum	healthcare	2627	0		0		0	100	6	97
+medplum/medplum-chat-demo	healthcare	0	0		0		0	0	0	0
+medplum/medplum-large-chart-demo	healthcare	1	0		0		0	1	1	1
+medplum/medplum-token-exchange-demo	healthcare	0	0		0		0	0	0	0
+medplum/medplum-valueset-selector	healthcare	3	0		0		0	0	0	0
+medplum/medplum-websocket-subscriptions-demo	healthcare	0	0		0		0	0	0	0
+nih-cfde/data-distillery	healthcare	7	0		0		0	14	0	0
+nih-cfde/events	healthcare	0	0		0		0	0	0	0
+nih-cfde/icc-eval-coordination	healthcare	0	0		0		0	4	0	0
+nih-cfde/icc-eval-core	healthcare	1	0		0		0	24	1	0
+nih-cfde/published-documentation	healthcare	3	0		0		0	100	0	0
+openemr/demo_farm_openemr	healthcare	6	0		0		0	100	52	1
+openemr/openemr	healthcare	5389	1	.github/copilot-instructions.md;CLAUDE.md;CONTRIBUTING.md	1	1	1	100	38	29
+openemr/openemr-devops	healthcare	118	0		0		0	100	54	30
+openemr/openemr-on-ecs	healthcare	25	1	CONTRIBUTING.md	0		0	59	0	5
+openemr/openemr-on-eks	healthcare	8	0		0		0	82	4	7
+openemr/website-openemr	healthcare	15	0		0		0	100	61	12
+openemr/website-openemr-files	healthcare	2	0		0		0	7	0	0
+openemr/website-openemr-previews	healthcare	0	0		0		0	0	0	0
+openmrs/openmrs-contrib-cvss-scanning	healthcare	1	0		0		0	72	0	0
+openmrs/openmrs-contrib-dependency-vulnerability-dashboard	healthcare	1	0		0		0	4	0	0
+openmrs/openmrs-contrib-liquibaserunner	healthcare	2	0		0		0	3	0	2
+openmrs/openmrs-contrib-o3-docs	healthcare	2	0		0		0	3	0	0
+openmrs/openmrs-contrib-performance-test	healthcare	6	0		0		0	100	0	40
+openmrs/openmrs-esm-core	healthcare	92	1	.github/copilot-instructions.md	0		0	100	5	0
+openmrs/openmrs-module-chartsearchai	healthcare	5	1	CLAUDE.md	0		1	100	94	0
+openmrs/openmrs-module-querystore	healthcare	2	1	CLAUDE.md	0		0	9	7	0
+smart-on-fhir/clinical-primitives	healthcare	0	0		0		0	0	0	0
+smart-on-fhir/cube-inference-fidelity-evaluation	healthcare	0	0		0		0	0	0	0
+smart-on-fhir/cumulus-aggregator	healthcare	3	0		0		0	100	0	0
+smart-on-fhir/cumulus-app	healthcare	2	0		0		0	8	1	0
+smart-on-fhir/cumulus-etl	healthcare	25	1	CONTRIBUTING.md	0		0	100	0	0
+smart-on-fhir/cumulus-library	healthcare	6	1	CONTRIBUTING.md	0		0	100	0	0
+smart-on-fhir/cumulus-library-pnoc30	healthcare	0	1	AGENTS.md	0		1	0	0	0
+smart-on-fhir/fhir-rest-api	healthcare	0	0		0		0	9	0	0
+CycloneDX/cyclonedx-core-java	security	118	0		0		0	100	0	88
+CycloneDX/cyclonedx-esbuild	security	6	1	CONTRIBUTING.md	0		0	92	3	91
+CycloneDX/cyclonedx-gradle-plugin	security	235	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	10	100
+CycloneDX/cyclonedx-javascript-library	security	24	1	CONTRIBUTING.md	0		0	100	1	99
+CycloneDX/cyclonedx-node-npm	security	148	1	CONTRIBUTING.md	0		0	100	1	99
+CycloneDX/cyclonedx-node-yarn	security	26	1	CONTRIBUTING.md	0		0	100	2	99
+CycloneDX/cyclonedx-property-taxonomy	security	25	0		0		0	100	0	91
+CycloneDX/specification	security	542	0		0		0	100	4	96
+OWASP/CheatSheetSeries	security	32974	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		1	100	4	32
+OWASP/OWASP-CRT	security	4	1	CONTRIBUTING.md	0		0	7	0	0
+OWASP/owasp.github.io	security	664	1	CONTRIBUTING.md	0		0	100	0	4
+OWASP/www-chapter-buea	security	1	0		0		0	1	0	0
+OWASP/www-chapter-lagos	security	0	0		0		0	0	0	0
+OWASP/www-chapter-san-fernando-valley	security	1	0		0		0	0	0	0
+OWASP/www-project-agent-memory-guard	security	155	1	CONTRIBUTING.md	0		0	44	13	6
+OWASP/www-project-nettacker	security	17	0		0		0	19	0	3
+anchore/anchore-charts	security	57	0		0		0	100	4	97
+anchore/cve-data-enrichment	security	18	0		0		0	57	0	57
+anchore/ecs-inventory	security	8	0		0		0	100	0	100
+anchore/k8s-inventory	security	71	1	CONTRIBUTING.md	0		0	100	0	100
+anchore/kubernetes-admission-controller	security	65	0		0		0	100	0	100
+anchore/nvd-data-overrides	security	51	0		0		0	64	0	64
+anchore/security-identifiers	security	1	0		0		0	43	0	43
+anchore/vulnerability-index-spec-files	security	1	0		0		0	100	0	99
+aquasecurity/helm-charts	security	21	0		0		0	23	0	4
+aquasecurity/kube-bench	security	8151	1	CONTRIBUTING.md	0		0	100	0	64
+aquasecurity/secfixes-tracker	security	8	0		0		0	13	0	0
+aquasecurity/trivy-operator	security	1929	1	CONTRIBUTING.md	0		0	100	0	35
+aquasecurity/vuln-list	security	464	1	CONTRIBUTING.md	0		0	11	0	0
+aquasecurity/vuln-list-debian	security	10	0		0		0	0	0	0
+aquasecurity/vuln-list-nvd	security	15	0		0		0	4	0	0
+aquasecurity/vuln-list-redhat	security	15	0		0		0	1	0	0
+chainguard-dev/actions	security	172	0		0		0	100	7	88
+chainguard-dev/apko	security	1667	1	CONTRIBUTING.md	0		0	100	10	72
+chainguard-dev/edu	security	94	0		0		0	100	42	37
+chainguard-dev/image-comparison	security	21	0		0		0	53	2	24
+chainguard-dev/sdk	security	2	0		0		0	0	0	0
+chainguard-dev/terraform-infra-common	security	29	1	CLAUDE.md	0		0	0	0	0
+chainguard-dev/terraform-provider-apko	security	20	0		0		0	100	5	76
+chainguard-dev/terraform-provider-oci	security	14	0		0		0	100	2	90
+dependency-check/DependencyCheck	security	7667	0		0		0	100	6	77
+dependency-check/azuredevops	security	53	0		0		0	48	0	11
+dependency-check/dependency-check-gradle	security	386	0		0		0	100	2	18
+dependency-check/dependency-check-sonar-plugin	security	693	0		0		0	100	0	75
+gittuf/community	security	3	0		0		0	17	0	16
+gittuf/demo	security	11	0		0		0	65	0	65
+gittuf/github-app	security	5	1	CONTRIBUTING.md	0		0	100	0	99
+gittuf/gittuf	security	653	1	CONTRIBUTING.md	0		0	100	4	100
+gittuf/gittuf-installer	security	3	0		0		0	65	0	65
+gittuf/gittuf.github.io	security	0	1	CONTRIBUTING.md	0		0	58	0	55
+gittuf/visualizer	security	2	0		0		0	100	0	100
+google-github-actions/.github	security	12	1	CONTRIBUTING.md	0		0	37	0	4
+google-github-actions/auth	security	1368	0		0		0	100	0	13
+google-github-actions/deploy-appengine	security	280	0		0		0	100	0	16
+google-github-actions/run-gemini-cli	security	2059	1	CONTRIBUTING.md	0		0	100	4	21
+google-github-actions/send-google-chat-webhook	security	29	1	CONTRIBUTING.md	0		0	20	0	0
+google-github-actions/setup-cloud-sdk	security	14	0		0		0	100	0	5
+google-github-actions/setup-gcloud	security	1905	0		0		0	100	0	19
+google-github-actions/upload-cloud-storage	security	270	0		0		0	100	0	16
+in-toto/archivista	security	116	1	CONTRIBUTING.md	0		0	100	0	94
+in-toto/attestation	security	371	0		0		0	100	2	98
+in-toto/attestation-verifier	security	19	0		0		0	100	0	100
+in-toto/go-witness	security	52	1	CONTRIBUTING.md	0		0	100	2	100
+in-toto/in-toto	security	1029	0		0		0	100	0	100
+in-toto/in-toto-rs	security	35	0		0		0	70	0	51
+in-toto/scai-demos	security	19	0		0		0	100	0	100
+in-toto/witness	security	546	1	CONTRIBUTING.md	0		0	100	1	100
+oss-review-toolkit/.github	security	1	1	CONTRIBUTING.md	0		0	7	0	7
+oss-review-toolkit/ort	security	2073	1	.github/copilot-instructions.md	0		0	100	0	44
+oss-review-toolkit/ort-ci-github-action	security	34	0		0		0	37	0	27
+oss-review-toolkit/ort-config	security	23	0		0		0	100	0	16
+oss-review-toolkit/ort-governance	security	1	1	CONTRIBUTING.md	0		0	26	0	26
+oss-review-toolkit/ort-package-manager-plugin	security	0	0		0		0	100	0	3
+oss-review-toolkit/ort-workbench	security	29	0		0		0	100	0	5
+oss-review-toolkit/orthw-shell	security	13	0		0		0	84	0	84
+ossf/best-practices-badge	security	1356	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	1	1	0	100	36	95
+ossf/malicious-packages	security	600	1	CONTRIBUTING.md	0		0	100	1	98
+ossf/oss-crs	security	146	1	CONTRIBUTING.md	0		0	100	3	100
+ossf/ossf-landscape	security	33	0		0		0	100	0	100
+ossf/pvtr-github-repo-scanner	security	31	1	.github/CONTRIBUTING.md	0		0	100	13	97
+ossf/scorecard-action	security	410	0		0		0	100	0	99
+ossf/scorecard-infra	security	1	1	AGENTS.md;CONTRIBUTING.md	1	1	0	29	13	29
+ossf/scorecard-webapp	security	31	0		0		0	100	6	100
+projectdiscovery/aix	security	321	0		0		0	100	0	97
+projectdiscovery/awesome-search-queries	security	405	1	CONTRIBUTING.md	0		0	24	0	4
+projectdiscovery/docs	security	27	0		0		0	100	6	7
+projectdiscovery/ipranger	security	70	0		0		0	100	0	97
+projectdiscovery/mapcidr	security	1221	0		0		0	100	0	97
+projectdiscovery/nuclei-templates	security	12835	1	CONTRIBUTING.md	0		0	100	1	0
+projectdiscovery/shuffledns	security	1663	0		0		0	100	0	93
+projectdiscovery/utils	security	139	0		0		0	100	1	65
+semgrep/e2e	security	2	0		0		0	2	0	0
+semgrep/pre-commit	security	10	0		0		0	100	4	0
+semgrep/semgrep	security	16385	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	17	0
+semgrep/semgrep-docs	security	59	0		0		0	100	13	0
+semgrep/semgrep-interfaces	security	20	0		0		0	100	1	0
+semgrep/semgrep-network-broker	security	11	0		0		0	100	8	35
+semgrep/semgrep-vscode	security	76	1	CONTRIBUTING.md	0		0	100	4	0
+sigstore/docs	security	151	0		0		0	100	1	100
+sigstore/gh-action-sigstore-python	security	71	0		0		0	100	0	100
+sigstore/policy-controller	security	178	0		0		0	100	7	100
+sigstore/rekor	security	1199	0		0		0	100	1	100
+sigstore/root-signing-staging	security	11	0		0		0	100	2	100
+sigstore/sigstore-rekor-types	security	7	0		0		0	100	1	93
+sigstore/sigstore-rs	security	238	0		0		0	100	3	100
+sigstore/terraform-modules	security	5	0		0		0	100	2	100
+slsa-framework/attested-build-environments-demo	security	8	0		0		0	63	0	34
+slsa-framework/governance	security	28	0		0		0	12	0	12
+slsa-framework/oss-na24-slsa-workshop-model-integrity	security	4	0		0		0	100	0	0
+slsa-framework/slsa	security	1913	1	CONTRIBUTING.md	0		0	100	2	98
+slsa-framework/slsa-github-generator	security	595	1	CONTRIBUTING.md	0		0	100	0	94
+slsa-framework/slsa-verifier	security	343	0		0		0	100	0	74
+slsa-framework/source-actions	security	2	0		0		0	24	0	24
+slsa-framework/source-tool	security	18	0		0		0	100	2	100
+snyk/agent-scan	security	2955	1	CONTRIBUTING.md	0		0	100	3	0
+snyk/artifactory-snyk-security-plugin	security	25	1	CONTRIBUTING.md	0		0	100	0	0
+snyk/broker	security	120	1	.github/CONTRIBUTING.md	0		0	100	0	1
+snyk/cli	security	5646	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	100	11	1
+snyk/saw-mcp	security	7	1	CONTRIBUTING.md	0		0	76	21	12
+snyk/snyk-eclipse-plugin	security	23	1	CONTRIBUTING.md	0		0	100	9	0
+snyk/snyk-ls	security	83	1	CONTRIBUTING.md	0		0	100	17	0
+snyk/user-docs	security	56	0		0		0	100	10	1
+spdx/LicenseListPublisher	security	23	1	CONTRIBUTING.md	0		0	100	0	67
+spdx/license-list-XML	security	486	1	CONTRIBUTING.md	0		0	100	1	38
+spdx/license-list-data	security	690	1	CONTRIBUTING.md	0		0	13	0	10
+spdx/meetings	security	43	1	CONTRIBUTING.md	0		0	100	0	19
+spdx/spdx-3-model	security	104	0		0		0	100	0	95
+spdx/spdx-online-tools	security	73	1	CONTRIBUTING.md	0		0	100	8	83
+spdx/spdx-spec	security	381	1	CONTRIBUTING.md	0		0	100	0	100
+spdx/tools-golang	security	170	1	CONTRIBUTING.md	0		0	100	0	99
+testifysec/curl	security	0	1	.github/CONTRIBUTING.md	0		0	0	0	0
+testifysec/hardener	security	0	0		0		0	88	88	0
+testifysec/hugo	security	0	1	AGENTS.md;CLAUDE.md;CONTRIBUTING.md	0		0	0	0	0
+testifysec/pushgate-demo	security	0	0		0		0	0	0	0
+testifysec/witness	security	0	0		0		0	0	0	0
+trailofbits/break-golf	security	0	0		0		0	0	0	0
+trailofbits/cargo-unmaintained	security	97	0		0		0	100	1	44
+trailofbits/claude-code-config	security	2080	0		0		0	32	30	0
+trailofbits/elaborate	security	9	0		0		0	100	0	48
+trailofbits/eth-security-toolbox	security	735	0		0		0	20	1	6
+trailofbits/gh-action-adapt-sigstore-pypi	security	2	0		0		0	69	0	67
+trailofbits/it-depends	security	410	1	CLAUDE.md	0		0	100	12	76
+trailofbits/skills	security	6837	1	AGENTS.md;CLAUDE.md	0		1	100	70	7

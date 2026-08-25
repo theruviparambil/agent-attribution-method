@@ -154,7 +154,7 @@ Monthly, the AI trailer shows a policy landing and then decaying: 0.0% through M
 | NVIDIA/garak, AI attribution | yes, with ban threat | no | **at least 8.7%** |
 | Linux kernel, `Assisted-by` | requested | no | **0.64%** |
 | This corpus, 746 repos | **none exists** | no | 0% to 41% |
-| Six sectors, 730 repos | **6 of 730 (0.82%)** | no | 8.61% |
+| Six sectors, 730 repos | **5 of 730 (0.68%)** | no | 8.61% |
 
 Two independent corpora, one mechanism. **Enforcement at the gate is the variable that moves disclosure.
 Written policy, even with a sanction, is not.**
@@ -172,28 +172,44 @@ pattern-matching as above.
 | Security / OSS security | 143 | 19 | 56 | **2** | 1.40% | 5.14% |
 | AI vendors | 124 | 18 | 66 | **1** | 0.81% | 10.83% |
 | Big tech | 159 | 19 | 133 | **1** | 0.63% | 12.07% |
-| Finance | 191 | 30 | 84 | **1** | 0.52% | 8.20% |
+| Finance | 191 | 30 | 84 | **0** | 0.00% | 8.20% |
 | Government | 54 | 7 | 31 | **0** | 0.00% | 1.06% |
-| **All** | **730** | **101** | **389** | **6** | **0.82%** | **8.61%** |
+| **All** | **730** | **101** | **389** | **5** | **0.68%** | **8.61%** |
 
-**6 repositories out of 730 require an attribution trailer: 0.82%.** They are:
+**5 repositories out of 730 require an attribution trailer: 0.68%.** Every one was verified by hand against the
+live file, not accepted from the scanner. They are:
 
 - `SAP/sailing-analytics`
-- `finos/morphir`
 - `ggml-org/llama.cpp`
 - `openemr/openemr`
 - `ossf/best-practices-badge`
 - `ossf/scorecard-infra`
 
+All five require **`Assisted-by:`**. Three of them explicitly forbid `Co-authored-by:` for an AI.
+`ossf/best-practices-badge` gives the reasoning: do not use `Co-authored-by:` for an AI, because it implies
+authorship and copyright requires human creative activity, and only a human adds `Signed-off-by:`, which
+certifies the DCO and is a claim an AI cannot make. `ossf/scorecard-infra` goes further and says earlier docs
+in that repository specified `Co-Authored-By:` and were wrong. This tracks the Linux kernel's documented
+convention, which mandates `Assisted-by: AGENT_NAME:MODEL_VERSION` and states that AI agents must not add
+`Signed-off-by` tags.
+
+**That is a problem for this project's own instrument, and it is the most important finding here.** The
+dominant signal in the pull-request scan is `claude_coauthor`, a `Co-authored-by:` trailer naming an AI. Every
+repository in this corpus that has actually reasoned about the question has decided that trailer is the wrong
+one. So the measurement counts a convention that the few informed projects are moving away from, and does not
+count `Assisted-by:`, which is what they are moving toward. A rising `Assisted-by:` rate would appear in these
+figures as falling disclosure. Any future run of this method should count both and report them separately.
+
 Two things follow, and the second matters more than the first.
 
 **There is no sector ladder.** Every sector sits between 0.00% and 1.69% requiring, and the gaps between
-them are one or two repositories. Finance is not behind technology on this. Technology is not ahead. The
+them are one or two repositories. Finance and government are both at zero. Finance is not behind technology on
+this. Technology is not ahead. The
 variation is noise at this base rate, and any argument of the form "sector X already does this, sector Y should
 follow" is unsupported by this corpus in either direction.
 
-**The six are not corporate engineering estates.** They are two OpenSSF repositories, a Linux Foundation
-fintech project, an open-source EHR, a community LLM runtime, and one vendor side project. Not one is the
+**The five are not corporate engineering estates.** They are two OpenSSF repositories, an open-source EHR, a
+community LLM runtime, and one vendor side project. Not one is the
 internal software development of a regulated institution. So the finding is not that adoption is early. It is
 that in this corpus the practice effectively does not exist yet, including in the places most likely to have
 invented it.
@@ -228,6 +244,17 @@ enforce a rule that someone has written, and almost nobody has written one.
   worker ranges, exactly the failure recorded in correction (i). Deduplicated by repository name, the corpus is
   **730 repositories**. Every figure in the six-sector section is computed from the deduplicated set, and
   `scale.tsv` is that set. If the figure 827 appears anywhere, it is wrong.
+- **Correction, 25 Aug (v):** the six-sector section published **6 repositories / 0.82%**. One of the six,
+  `finos/morphir`, is a false positive and says the opposite of what the scanner concluded. Its `CLAUDE.md`
+  reads "**DO NOT** add Claude or any AI assistant as a commit co-author under any circumstances", and its
+  `AGENTS.md` repeats the prohibition, because an AI co-author breaks the FINOS EasyCLA check. The scanner
+  matched the literal `Co-Authored-By: Claude` string that appears inside a block headed "**NEVER include
+  lines like:**" and another headed "**INCORRECT approach (WILL BREAK EasyCLA):**". The `requires_trailer`
+  pattern has no negation-context check, so a prohibition that quotes the trailer it forbids reads as a
+  requirement. Corrected to **5 repositories / 0.68%**, and Finance falls from 1 of 191 to **0 of 191**. All
+  five survivors were then verified by hand against the live files rather than accepted from the scanner.
+  Read `requires_trailer` in `scale.tsv` as "matched a trailer pattern", not as "requires a trailer": it is
+  a screening signal that needs human confirmation, and this repository now treats it that way.
 - None of these corrections change the headline: **no repository in either segment requires an attribution trailer.**
 
 ---
@@ -269,6 +296,12 @@ approval counts, commit count, and which signals matched.
 `scale.tsv` is the six-sector scan, one row per repository, deduplicated to 730: sector, stars, whether any
 policy file exists and which, whether it requires a trailer or mentions AI, and the sampled PR counts. The
 per-sector table is a group-by over this file, so the figures can be checked without re-running collection.
+
+It carries two separate columns for the requirement finding. `requires_trailer` is the raw scanner output and
+is a screening signal only; it has no negation-context check and produced at least one false positive, see
+correction (v). `verified_requires` is a human reading of the live file: `1` confirmed, `0` confirmed false
+positive, empty where nobody has checked. The headline figure of 5 counts `verified_requires`, not
+`requires_trailer`.
 
 ## Why we published this
 
