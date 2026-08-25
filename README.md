@@ -104,10 +104,12 @@ The range above shows disclosure varies. It does not show why. This section meas
 
 ### Do these organisations have an attribution policy at all?
 
-We scanned all **746 repositories** in the corpus for `AGENTS.md`, `CONTRIBUTING.md`,
+We scanned all **746 repositories** collected for the corpus for `AGENTS.md`, `CONTRIBUTING.md`,
 `.github/CONTRIBUTING.md`, `CLAUDE.md` and `.github/copilot-instructions.md`, and pattern-matched for rules
 about AI attribution, human accountability and agent-authored pull requests. Reported by segment, since the two
-are not comparable.
+are not comparable. The two segment counts below sum to 729 rather than 746 because 17 repositories from one
+excluded organisation are present in the raw scan output and removed from the reported fintech denominator;
+see correction (ii).
 
 | | Fintech (407 repos, 15 orgs) | AI vendors (322 repos, 4 orgs) |
 |---|---|---|
@@ -152,9 +154,52 @@ Monthly, the AI trailer shows a policy landing and then decaying: 0.0% through M
 | NVIDIA/garak, AI attribution | yes, with ban threat | no | **at least 8.7%** |
 | Linux kernel, `Assisted-by` | requested | no | **0.64%** |
 | This corpus, 746 repos | **none exists** | no | 0% to 41% |
+| Six sectors, 730 repos | **6 of 730 (0.82%)** | no | 8.61% |
 
 Two independent corpora, one mechanism. **Enforcement at the gate is the variable that moves disclosure.
 Written policy, even with a sanction, is not.**
+
+### Does this hold outside fintech?
+
+The section above measures two segments. If a requirement to attribute agent work exists anywhere as normal
+practice, it should be visible in a wider corpus. We scanned **730 repositories across 101 organisations**
+in six sectors, sampling **50,093 merged pull requests**, using the same five filenames and the same
+pattern-matching as above.
+
+| Sector | Repos | Orgs | Has any policy file | Requires a trailer | Rate | AI-trailer PRs |
+|---|---|---|---|---|---|---|
+| Healthcare / health IT | 59 | 8 | 19 | **1** | 1.69% | 10.94% |
+| Security / OSS security | 143 | 19 | 56 | **2** | 1.40% | 5.14% |
+| AI vendors | 124 | 18 | 66 | **1** | 0.81% | 10.83% |
+| Big tech | 159 | 19 | 133 | **1** | 0.63% | 12.07% |
+| Finance | 191 | 30 | 84 | **1** | 0.52% | 8.20% |
+| Government | 54 | 7 | 31 | **0** | 0.00% | 1.06% |
+| **All** | **730** | **101** | **389** | **6** | **0.82%** | **8.61%** |
+
+**6 repositories out of 730 require an attribution trailer: 0.82%.** They are:
+
+- `SAP/sailing-analytics`
+- `finos/morphir`
+- `ggml-org/llama.cpp`
+- `openemr/openemr`
+- `ossf/best-practices-badge`
+- `ossf/scorecard-infra`
+
+Two things follow, and the second matters more than the first.
+
+**There is no sector ladder.** Every sector sits between 0.00% and 1.69% requiring, and the gaps between
+them are one or two repositories. Finance is not behind technology on this. Technology is not ahead. The
+variation is noise at this base rate, and any argument of the form "sector X already does this, sector Y should
+follow" is unsupported by this corpus in either direction.
+
+**The six are not corporate engineering estates.** They are two OpenSSF repositories, a Linux Foundation
+fintech project, an open-source EHR, a community LLM runtime, and one vendor side project. Not one is the
+internal software development of a regulated institution. So the finding is not that adoption is early. It is
+that in this corpus the practice effectively does not exist yet, including in the places most likely to have
+invented it.
+
+This does not weaken the enforcement finding above. It generalises the precondition for it: a gate can only
+enforce a rule that someone has written, and almost nobody has written one.
 
 ### Limits on this section
 
@@ -178,6 +223,11 @@ Written policy, even with a sanction, is not.**
   220/300. The original pass read only the first 20 commits per pull request and 10 of the 300 exceed 30
   commits, so trailer-bearing commits past the cutoff were missed. Both garak figures are now stated as
   floors ("at least"), because commit sets remain truncated at 30 for those 10 pull requests.
+- **Correction, 25 Aug (iv):** the six-sector scan first completed with **827 rows**, which was reported
+  internally as 827 repositories. It was not. Ninety-seven repositories were scanned twice by overlapping
+  worker ranges, exactly the failure recorded in correction (i). Deduplicated by repository name, the corpus is
+  **730 repositories**. Every figure in the six-sector section is computed from the deduplicated set, and
+  `scale.tsv` is that set. If the figure 827 appears anywhere, it is wrong.
 - None of these corrections change the headline: **no repository in either segment requires an attribution trailer.**
 
 ---
@@ -213,6 +263,12 @@ python3 analyze_corrected.py                   # all figures in this README
 
 `scan2.jsonl` is the raw per-PR output: repo, PR number, merge timestamp, author, bot classification,
 approval counts, commit count, and which signals matched.
+
+`policy.jsonl` is the policy scan over the two original segments (746 rows, one per repository scanned).
+
+`scale.tsv` is the six-sector scan, one row per repository, deduplicated to 730: sector, stars, whether any
+policy file exists and which, whether it requires a trailer or mentions AI, and the sampled PR counts. The
+per-sector table is a group-by over this file, so the figures can be checked without re-running collection.
 
 ## Why we published this
 
