@@ -106,18 +106,20 @@ The range above shows disclosure varies. It does not show why. This section meas
 
 We scanned all **746 repositories** in the corpus for `AGENTS.md`, `CONTRIBUTING.md`,
 `.github/CONTRIBUTING.md`, `CLAUDE.md` and `.github/copilot-instructions.md`, and pattern-matched for rules
-about AI attribution, human accountability and agent-authored pull requests.
+about AI attribution, human accountability and agent-authored pull requests. Reported by segment, since the two
+are not comparable.
 
-| | Repos | % |
+| | Fintech (424 repos, 16 orgs) | AI vendors (322 repos, 4 orgs) |
 |---|---|---|
-| Has an `AGENTS.md` | 55 | 7.4% |
-| Mentions AI, LLM or agent in a policy file | 9 | 1.2% |
-| **Requires an attribution trailer** | **0** | **0.0%** |
-| Requires human accountability for AI-assisted work | 0 | 0.0% |
-| Prohibits pure agent-authored pull requests | 0 | 0.0% |
+| Has an `AGENTS.md` | 32 | 15 |
+| Mentions AI, LLM or agent in a policy file | 6 | 0 |
+| **Requires an attribution trailer** | **0** | **0** |
+| Requires human accountability for AI-assisted work | **0** | 1 |
+| Prohibits pure agent-authored pull requests | 0 | 0 |
 
-Zero. The nine that mention AI are agent *instruction* files, telling an agent how to work in the repository,
-not governance rules about disclosure.
+**No repository in either segment requires an attribution trailer.** The six fintech files that mention AI are
+agent *instruction* files, telling an agent how to work in the repository, not governance rules about
+disclosure. The single human-accountability hit is `openai/fence`, an AI vendor rather than a regulated firm.
 
 So the low disclosure rates in this corpus are not non-compliance. **There is nothing to comply with.**
 
@@ -163,6 +165,10 @@ Written policy, even with a sanction, is not.**
   CODEOWNERS convention would be missed. The zero should be read as "no policy in the conventional locations",
   not "no policy anywhere".
 - DCO presence is measured from commit messages, not from whether the check actually blocked anything.
+- **Correction, 25 Aug:** an earlier version of this section reported 55 `AGENTS.md`, 9 AI mentions and zero
+  human-accountability rules. Two scanner processes had overlapped and duplicated rows. Deduplicated, the
+  figures are 47, 6 and 1. The headline finding, that no repository requires an attribution trailer, is
+  unchanged. `policy.jsonl` in this repo is the deduplicated output.
 
 ---
 
