@@ -134,8 +134,8 @@ Measured across its **300 most recent merged pull requests**:
 
 | Trailer | Mechanism | Present |
 |---|---|---|
-| AI attribution (`Co-authored-by: <agent>`) | written policy, ban threat, **no gate** | **26 / 300 = 8.7%** |
-| `Signed-off-by` (DCO) | **bot-checked before merge** | **219 / 300 = 73.0%** |
+| AI attribution (`Co-authored-by: <agent>`) | written policy, ban threat, **no gate** | **26 / 300 = at least 8.7%** |
+| `Signed-off-by` (DCO) | **bot-checked before merge** | **220 / 300 = at least 73.3%** |
 
 Same repository. Same contributors. Same period. The only difference is that one is enforced at the merge gate
 and the other is a written rule with a sanction attached.
@@ -148,8 +148,8 @@ Monthly, the AI trailer shows a policy landing and then decaying: 0.0% through M
 | Corpus | Policy | Enforced at a gate | Disclosure |
 |---|---|---|---|
 | Linux kernel, `Signed-off-by` | yes | yes | **99.8%** |
-| NVIDIA/garak, DCO | yes | yes (bot) | **73.0%** |
-| NVIDIA/garak, AI attribution | yes, with ban threat | no | **8.7%** |
+| NVIDIA/garak, DCO | yes | yes (bot) | **at least 73.3%** |
+| NVIDIA/garak, AI attribution | yes, with ban threat | no | **at least 8.7%** |
 | Linux kernel, `Assisted-by` | requested | no | **0.64%** |
 | This corpus, 746 repos | **none exists** | no | 0% to 41% |
 
@@ -173,7 +173,12 @@ Written policy, even with a sanction, is not.**
   measurement earlier for an identity collision: its name resembles a US fintech but it is an unrelated company
   in a different country and industry. It was removed from one denominator and left in the other. Corrected to
   **407 repositories across 15 organisations**, which now matches the corpus used for the PR measurement.
-- Neither correction changes the headline: **no repository in either segment requires an attribution trailer.**
+- **Correction, 25 Aug (iii):** the garak table published the DCO trailer as 219/300 = 73.0%. An independent
+  second pass, run because a single-pass figure is not a claim under this project's own standard, found
+  220/300. The original pass read only the first 20 commits per pull request and 10 of the 300 exceed 30
+  commits, so trailer-bearing commits past the cutoff were missed. Both garak figures are now stated as
+  floors ("at least"), because commit sets remain truncated at 30 for those 10 pull requests.
+- None of these corrections change the headline: **no repository in either segment requires an attribution trailer.**
 
 ---
 
@@ -193,9 +198,11 @@ Written policy, even with a sanction, is not.**
 5. **Bot classification is heuristic:** GitHub account type, login pattern, and a known-bot list. Cursor's
    background agent is GitHub type `User`, not `Bot`, so it is caught only by the list.
 6. **The window is 365 days** and the final month is partial.
-7. **One organisation was excluded after collection**, for identity rather than results: 9 repositories under
-   an org whose name collides with a fintech but which is an unrelated company in a different country and
-   industry. The exclusion is in the code, not applied by hand.
+7. **One organisation was excluded after collection**, for identity rather than results: **17 repositories**
+   under an org whose name collides with a fintech but which is an unrelated company in a different country
+   and industry. The exclusion is in the code, not applied by hand. (An earlier version of this line said 9;
+   that was wrong. 9 was the count of its repositories that had merged pull requests, 17 is the count in the
+   corpus.)
 
 ## Reproducing
 
