@@ -1,7 +1,8 @@
 # Measuring AI-agent attribution in merged pull requests
 
-Method, code and data for a measurement of how often merged pull requests at regulated fintechs carry any
-signal that an AI agent wrote the code.
+Method, code and data for a measurement of how often merged pull requests carry any signal that an AI agent
+wrote the code. Two segments: **regulated fintechs** (15 organisations) and **AI coding-tool vendors**
+(4 organisations: Anthropic, Cursor, OpenAI, Sourcegraph).
 
 Published by [Falden](https://falden.ai). Run on 2026-08-21.
 
@@ -45,7 +46,16 @@ excluding archived repositories and forks. **510 of them had merged pull request
 236 were pushed to but merged nothing, and a 30-repository sample confirmed those are genuine zeros rather
 than collection failures.
 
-11,534 merged pull requests, window 2025-08-19 to 2026-08-19.
+**11,534 merged pull requests total**, window 2025-08-19 to 2026-08-19, split into two segments that must not
+be conflated:
+
+| Segment | Orgs | Repos with merges | Merged PRs |
+|---|---|---|---|
+| **Regulated fintech** | 15 | 332 | **6,869** |
+| AI coding-tool vendors | 4 | 169 | 4,665 |
+
+Any claim about fintechs uses the 6,869 figure. The vendor segment is reported separately and is not
+comparable, since those organisations build the agents being detected.
 
 `corpus.tsv` lists all 746 repositories scanned. Nothing was excluded after seeing its result.
 
@@ -53,7 +63,7 @@ than collection failures.
 
 ### Headline
 
-**0% to 41%** signal rate across comparable regulated fintechs, whole-window.
+**0% to 41%** signal rate across comparable regulated fintechs, whole-window, on the 6,869-PR fintech segment.
 
 ### Balanced panel
 
