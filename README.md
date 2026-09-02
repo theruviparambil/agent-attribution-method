@@ -98,6 +98,58 @@ measurement independently of how much agent code is actually written.
 
 ---
 
+## Independence: who approved the signalled pull requests
+
+The rest of this study asks a disclosure question. This asks a separate one, using the `humanApproved`
+field defined above: of the merged pull requests that did carry an agent-authorship signal, how many were
+approved by a real person other than the author.
+
+Run `python3 independence.py` to reproduce every figure in this section from `scan2.jsonl`.
+
+| | Signalled PRs | No independent approval | |
+|---|---|---|---|
+| **All** | **1,243** | **410** | **33.0%** |
+| Fintech | 875 | 280 | 32% |
+| AI vendors | 368 | 130 | 35% |
+
+Same corpus as the rest of the study: 11,534 merged pull requests across 501 repositories after excluding
+`plaidev`, per correction (ii).
+
+### The baseline, which matters more than the headline
+
+Across **all** 11,534 merged pull requests, signal or no signal, **2,789 (24.2%)** had no independent human
+approval.
+
+So signalled pull requests are worse (33.0% against 24.2%) but not dramatically, and anyone quoting the 33%
+without the 24% is telling half the story. **The finding is not that agent-authored work is reviewed more
+carelessly than everything else.** It is that the review control is weak generally, and that on the pull
+requests where an agent was disclosed, it is weaker still. The reason that combination is worth measuring is
+the one this whole repository exists for: on the pull requests that carried no signal, nobody can tell whether
+an agent was involved at all.
+
+### By quarter, signalled pull requests only
+
+| Quarter | No independent approval | Signalled PRs | Rate |
+|---|---|---|---|
+| 2025Q3 | 0 | 11 | 0% |
+| 2025Q4 | 4 | 44 | 9% |
+| 2026Q1 | 65 | 162 | 40% |
+| 2026Q2 | 201 | 520 | 39% |
+| 2026Q3 | 140 | 506 | 28% |
+
+The early quarters carry too few signalled pull requests to read a trend into, and the denominators are given
+so that is visible rather than hidden behind a percentage.
+
+### What this measure is, exactly
+
+Conservative in one specific way: approval is compared against the **pull request author only**. A pull
+request approved by somebody who wrote commits in it but did not open it still counts as approved here. A
+stricter test comparing against every authoring account would find fewer independent approvals, not more.
+
+It also inherits every limit in the section below. In particular a signal is a disclosure artifact and not a
+measurement of how much code an agent wrote, so none of these figures says anything about the pull requests
+that carried no signal.
+
 ## Follow-up: does written policy produce disclosure?
 
 The range above shows disclosure varies. It does not show why. This section measures the mechanism.
@@ -285,7 +337,8 @@ enforce a rule that someone has written, and almost nobody has written one.
 
 ```
 python3 scan2.py corpus.tsv scan2.jsonl 4     # collect (GitHub GraphQL, gh CLI auth)
-python3 analyze_corrected.py                   # all figures in this README
+python3 analyze_corrected.py                   # disclosure figures
+python3 independence.py                        # the independence section
 ```
 
 `scan2.jsonl` is the raw per-PR output: repo, PR number, merge timestamp, author, bot classification,
