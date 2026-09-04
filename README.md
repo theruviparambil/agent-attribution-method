@@ -85,15 +85,23 @@ series on a defeasible signal and we do not think it supports a trend claim.
 
 ### Signal distribution
 
-| Signal | PRs | | Signal | PRs |
-|---|---|---|---|---|
-| `claude_coauthor` | 556 | | `claude_generated` | 22 |
-| `codex` | 145 | | `devin` | 15 |
-| `generic_ai_coauthor` | 94 | | `agent_logs_url` | 3 |
-| `cursor_coauthor` | 91 | | `claude_session` | 2 |
-| `copilot_coauthor` | 33 | | | |
+Signal instances across the 1,243 signalled pull requests (a pull request can carry more than one
+signal; 146 do), recomputed from `scan2.jsonl`:
 
-**One vendor's default trailer is a majority of all signal.** Any change to that default moves this
+| Signal | Instances | | Signal | Instances |
+|---|---|---|---|---|
+| `claude_coauthor` | 740 | | `copilot_coauthor` | 64 |
+| `codex` | 216 | | `agent_logs_url` | 16 |
+| `cursor_coauthor` | 146 | | `devin` | 15 |
+| `generic_ai_coauthor` | 124 | | `claude_session` | 4 |
+| `claude_generated` | 73 | | | |
+
+1,398 instances in total. The earlier version of this table was computed from the first scan and
+summed to 961; it did not reconcile with the 1,243 signalled pull requests reported below, and has been
+replaced. Run `python3 independence.py` to reproduce these counts.
+
+
+**One vendor's default trailer is a majority of all signal** (740 of 1,398 instances, 52.9%). Any change to that default moves this
 measurement independently of how much agent code is actually written.
 
 ---
