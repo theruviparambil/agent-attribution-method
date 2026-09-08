@@ -6,8 +6,8 @@ wrote the code. Two segments: **regulated fintechs** (15 organisations) and **AI
 
 Published by [Falden](https://falden.ai). Run on 2026-08-21.
 
-**The short version: you cannot tell from the outside.** Across 11,534 merged pull requests in 510 public
-repositories that had merges, the share carrying any agent-attribution signal ranged from **0% to 41%** between comparable
+**The short version: you cannot tell from the outside.** Across 11,534 merged pull requests in the 501 public
+repositories that had merges after the exclusion described below, the share carrying any agent-attribution signal ranged from **0% to 41%** between comparable
 companies. That range is a disclosure-policy artifact, not a usage measurement, and public GitHub
 organisations are not internal software development.
 
@@ -46,8 +46,10 @@ excluding archived repositories and forks. **510 of them had merged pull request
 236 were pushed to but merged nothing, and a 30-repository sample confirmed those are genuine zeros rather
 than collection failures.
 
-**11,534 merged pull requests total**, window 2025-08-19 to 2026-08-19, split into two segments that must not
-be conflated:
+**11,922 merged pull requests collected** across those 510 repositories, window 2025-08-19 to 2026-08-19.
+After excluding `plaidev` per correction (ii), the study corpus is **11,534 merged pull requests across 501
+repositories**. Every figure below uses the 11,534 corpus unless stated otherwise. The corpus splits into two
+segments that must not be conflated:
 
 | Segment | Orgs | Repos with merges | Merged PRs |
 |---|---|---|---|
