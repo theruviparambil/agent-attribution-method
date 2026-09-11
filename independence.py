@@ -30,7 +30,7 @@ Usage:  python3 independence.py
 import collections
 import json
 
-EXCLUDE_ORGS = {"plaidev"}  # Tokyo CX company, mislabelled as fintech. See correction (ii).
+EXCLUDE_ORGS = {"plaidev"}  # Tokyo CX company, mislabeled as fintech. See correction (ii).
 
 
 def org(row):

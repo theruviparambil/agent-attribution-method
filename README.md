@@ -1,15 +1,15 @@
 # Measuring AI-agent attribution in merged pull requests
 
 Method, code and data for a measurement of how often merged pull requests carry any signal that an AI agent
-wrote the code. Two segments: **regulated fintechs** (15 organisations) and **AI coding-tool vendors**
-(4 organisations: Anthropic, Cursor, OpenAI, Sourcegraph).
+wrote the code. Two segments: **regulated fintechs** (15 organizations) and **AI coding-tool vendors**
+(4 organizations: Anthropic, Cursor, OpenAI, Sourcegraph).
 
 Published by [Falden](https://falden.ai). Run on 2026-08-21.
 
 **The short version: you cannot tell from the outside.** Across 11,534 merged pull requests in the 501 public
 repositories that had merges after the exclusion described below, the share carrying any agent-attribution signal ranged from **0% to 41%** between comparable
 companies. That range is a disclosure-policy artifact, not a usage measurement, and public GitHub
-organisations are not internal software development.
+organizations are not internal software development.
 
 ---
 
@@ -41,7 +41,7 @@ and is not the PR author.
 
 ## Corpus
 
-746 active public repositories across 15 organisations were scanned, selected by `pushed_at` within 365 days,
+746 active public repositories across 15 organizations were scanned, selected by `pushed_at` within 365 days,
 excluding archived repositories and forks. **510 of them had merged pull requests in the window**; the other
 236 were pushed to but merged nothing, and a 30-repository sample confirmed those are genuine zeros rather
 than collection failures.
@@ -57,7 +57,7 @@ segments that must not be conflated:
 | AI coding-tool vendors | 4 | 169 | 4,665 |
 
 Any claim about fintechs uses the 6,869 figure. The vendor segment is reported separately and is not
-comparable, since those organisations build the agents being detected.
+comparable, since those organizations build the agents being detected.
 
 `corpus.tsv` lists all 746 repositories scanned. Nothing was excluded after seeing its result.
 
@@ -164,13 +164,13 @@ that carried no signal.
 
 The range above shows disclosure varies. It does not show why. This section measures the mechanism.
 
-### Do these organisations have an attribution policy at all?
+### Do these organizations have an attribution policy at all?
 
 We scanned all **746 repositories** collected for the corpus for `AGENTS.md`, `CONTRIBUTING.md`,
 `.github/CONTRIBUTING.md`, `CLAUDE.md` and `.github/copilot-instructions.md`, and pattern-matched for rules
 about AI attribution, human accountability and agent-authored pull requests. Reported by segment, since the two
 are not comparable. The two segment counts below sum to 729 rather than 746 because 17 repositories from one
-excluded organisation are present in the raw scan output and removed from the reported fintech denominator;
+excluded organization are present in the raw scan output and removed from the reported fintech denominator;
 see correction (ii).
 
 | | Fintech (407 repos, 15 orgs) | AI vendors (322 repos, 4 orgs) |
@@ -224,7 +224,7 @@ Written policy, even with a sanction, is not.**
 ### Does this hold outside fintech?
 
 The section above measures two segments. If a requirement to attribute agent work exists anywhere as normal
-practice, it should be visible in a wider corpus. We scanned **730 repositories across 101 organisations**
+practice, it should be visible in a wider corpus. We scanned **730 repositories across 101 organizations**
 in six sectors, sampling **50,093 merged pull requests**, using the same five filenames and the same
 pattern-matching as above.
 
@@ -292,10 +292,10 @@ enforce a rule that someone has written, and almost nobody has written one.
   zero human-accountability rules. Two scanner processes had overlapped and duplicated rows. Deduplicated, the
   figures are 47, 6 and 1. `policy.jsonl` in this repo is the deduplicated output.
 - **Correction, 25 Aug (ii):** the fintech policy-scan denominator was published as 424 repositories across 16
-  organisations. That count still included 17 repositories from an organisation excluded from the pull-request
+  organizations. That count still included 17 repositories from an organization excluded from the pull-request
   measurement earlier for an identity collision: its name resembles a US fintech but it is an unrelated company
   in a different country and industry. It was removed from one denominator and left in the other. Corrected to
-  **407 repositories across 15 organisations**, which now matches the corpus used for the PR measurement.
+  **407 repositories across 15 organizations**, which now matches the corpus used for the PR measurement.
 - **Correction, 25 Aug (iii):** the garak table published the DCO trailer as 219/300 = 73.0%. An independent
   second pass, run because a single-pass figure is not a claim under this project's own standard, found
   220/300. The original pass read only the first 20 commits per pull request and 10 of the 300 exceed 30
@@ -326,18 +326,18 @@ enforce a rule that someone has written, and almost nobody has written one.
 1. **This is a floor on disclosure, not an estimate of usage.** Every trailer is opt-in and removable with one
    line of config. Measured separately: 87% of public files mentioning Copilot CLI's `includeCoAuthoredBy`
    set it to `false`.
-2. **Public GitHub organisations are not internal software development.** Several organisations in this corpus
+2. **Public GitHub organizations are not internal software development.** Several organizations in this corpus
    run their real SDLC on internal GitLab or self-hosted forges and expose only SDKs, samples and plugins.
    A low public rate is not evidence of low agent usage.
-3. **No organisation should be read as an example.** We deliberately do not name companies or use any single
-   organisation as an illustration, because per-org rates in a public corpus are not comparable to each other.
+3. **No organization should be read as an example.** We deliberately do not name companies or use any single
+   organization as an illustration, because per-org rates in a public corpus are not comparable to each other.
 4. **Sampling cap.** Up to 100 merged PRs per repository (4 pages of 25). 21 fintech repositories hit that
    ceiling. Capped repositories contribute disproportionately to recent months, which is exactly why the
    balanced panel exists and why the uncapped series is not the headline.
 5. **Bot classification is heuristic:** GitHub account type, login pattern, and a known-bot list. Cursor's
    background agent is GitHub type `User`, not `Bot`, so it is caught only by the list.
 6. **The window is 365 days** and the final month is partial.
-7. **One organisation was excluded after collection**, for identity rather than results: **17 repositories**
+7. **One organization was excluded after collection**, for identity rather than results: **17 repositories**
    under an org whose name collides with a fintech but which is an unrelated company in a different country
    and industry. The exclusion is in the code, not applied by hand. (An earlier version of this line said 9;
    that was wrong. 9 was the count of its repositories that had merged pull requests, 17 is the count in the
@@ -374,6 +374,6 @@ including the parts that did not work.
 
 Corrections welcome as issues.
 
-## Licence
+## License
 
 MIT for the code. Data is derived from public GitHub metadata.

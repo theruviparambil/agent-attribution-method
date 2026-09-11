@@ -8,7 +8,7 @@
 import json, collections, sys
 
 rows=[json.loads(l) for l in open('scan2.jsonl')]
-EXCLUDE_ORGS={'plaidev'}                      # Tokyo CX company, mislabelled as fintech
+EXCLUDE_ORGS={'plaidev'}                      # Tokyo CX company, mislabeled as fintech
 def org(r): return r['repo'].split('/')[0]
 dropped=[r for r in rows if org(r) in EXCLUDE_ORGS]
 rows=[r for r in rows if org(r) not in EXCLUDE_ORGS]
