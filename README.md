@@ -1,8 +1,9 @@
 # Measuring AI-agent attribution in merged pull requests
 
 Method, code and data for a measurement of how often merged pull requests carry any signal that an AI agent
-wrote the code. Two segments: **regulated fintechs** (15 organizations) and **AI coding-tool vendors**
-(4 organizations: Anthropic, Cursor, OpenAI, Sourcegraph).
+wrote the code. Two segments: **regulated fintechs** (15 GitHub organization accounts belonging to 11 companies,
+since four of them run two accounts each) and **AI coding-tool vendors** (4 accounts: Anthropic, Cursor, OpenAI,
+Sourcegraph).
 
 Published by [Falden](https://falden.ai). Run on 2026-08-21.
 
@@ -41,17 +42,19 @@ and is not the PR author.
 
 ## Corpus
 
-746 active public repositories across 15 organizations were scanned, selected by `pushed_at` within 365 days,
-excluding archived repositories and forks. **510 of them had merged pull requests in the window**; the other
+746 active public repositories across 20 GitHub organization accounts were scanned, selected by `pushed_at` within
+365 days, excluding archived repositories and forks. **510 of them had merged pull requests in the window**; the other
 236 were pushed to but merged nothing, and a 30-repository sample confirmed those are genuine zeros rather
-than collection failures.
+than collection failures. After the exclusion in correction (ii), 19 accounts remain: 15 fintech and 4 AI
+coding-tool vendors. "Organization" throughout means a GitHub organization account, not a company; four fintech
+companies run two accounts each.
 
 **11,922 merged pull requests collected** across those 510 repositories, window 2025-08-19 to 2026-08-19.
 After excluding `plaidev` per correction (ii), the study corpus is **11,534 merged pull requests across 501
 repositories**. Every figure below uses the 11,534 corpus unless stated otherwise. The corpus splits into two
 segments that must not be conflated:
 
-| Segment | Orgs | Repos with merges | Merged PRs |
+| Segment | GitHub org accounts | Repos with merges | Merged PRs |
 |---|---|---|---|
 | **Regulated fintech** | 15 | 332 | **6,869** |
 | AI coding-tool vendors | 4 | 169 | 4,665 |
@@ -114,28 +117,46 @@ The rest of this study asks a disclosure question. This asks a separate one, usi
 field defined above: of the merged pull requests that did carry an agent-authorship signal, how many were
 approved by a real person other than the author.
 
-Run `python3 independence.py` to reproduce every figure in this section from `scan2.jsonl`.
+Run `python3 independence.py` to reproduce every figure in this section from `scan2.jsonl`. Same corpus as the
+rest of the study: 11,534 merged pull requests across 501 repositories after excluding `plaidev`, per
+correction (ii).
 
-| | Signalled PRs | No independent approval | |
-|---|---|---|---|
-| **All** | **1,243** | **410** | **33.0%** |
-| Fintech | 875 | 280 | 32% |
-| AI vendors | 368 | 130 | 35% |
+### The finding: 24.2% of all merged pull requests had no independent approval on GitHub
 
-Same corpus as the rest of the study: 11,534 merged pull requests across 501 repositories after excluding
-`plaidev`, per correction (ii).
+Across **all** 11,534 merged pull requests, signal or no signal, **2,789 (24.2%)** had no approving review from
+anyone but the author. By segment: 1,403 of 6,869 fintech pull requests (20.4%) and 1,386 of 4,665 AI-vendor
+pull requests (29.7%).
 
-### The baseline, which matters more than the headline
+What this measures is the absence of a GitHub approving-review object. An approval can happen somewhere GitHub
+does not record as a review: a change ticket, a merge queue, a CODEOWNERS rule enforced by another mechanism.
+This measurement cannot see those, so read 24.2% as the share of merges for which GitHub alone holds no
+independent approval, not as the share that went unreviewed.
 
-Across **all** 11,534 merged pull requests, signal or no signal, **2,789 (24.2%)** had no independent human
-approval.
+### The signalled subset: 33.0%, and not measurably different
 
-So signalled pull requests are worse (33.0% against 24.2%) but not dramatically, and anyone quoting the 33%
-without the 24% is telling half the story. **The finding is not that agent-authored work is reviewed more
-carelessly than everything else.** It is that the review control is weak generally, and that on the pull
-requests where an agent was disclosed, it is weaker still. The reason that combination is worth measuring is
-the one this whole repository exists for: on the pull requests that carried no signal, nobody can tell whether
-an agent was involved at all.
+| | Signalled PRs | No independent approval | Rate | All merged PRs in the segment |
+|---|---|---|---|---|
+| **All** | **1,243** | **410** | **33.0%** | 24.2% |
+| Fintech | 875 | 280 | 32.0% | 20.4% |
+| AI vendors | 368 | 130 | 35.3% | 29.7% |
+
+409 of the 410 had no approving review of any kind; one had an approval from the author or a bot.
+
+The 10,291 pull requests that carried no signal had a rate of 23.1% (2,379). The signalled rate is 9.9
+percentage points higher, and we do not claim that gap is real:
+
+- A repository-clustered bootstrap (2,000 resamples of the 501 repositories, seed fixed in `independence.py`)
+  puts the 95% interval for the gap at [-1.2, +20.6] percentage points. Approval practice is a property of a
+  repository, not of a pull request, so this is the interval that matters, and it crosses zero.
+- The 410 are concentrated: 154 of them sit in the 19 developer sample and quickstart repositories of a single
+  organization (the script names it).
+- In the 353 repositories where at least half of merged pull requests had an independent approval, the two
+  rates converge: 37 of 818 signalled (4.5%) and 366 of 7,846 unsignalled (4.7%).
+
+**The finding is not that agent-authored work is reviewed more carelessly than everything else.** It is that a
+quarter of merged pull requests in this corpus carried no independent approval GitHub can show, that the
+disclosed-agent subset is not measurably different, and that on the 10,291 pull requests with no signal, nobody
+can tell whether an agent was involved at all. That last point is the one this whole repository exists for.
 
 ### By quarter, signalled pull requests only
 
@@ -276,13 +297,13 @@ internal software development of a regulated institution. So the finding is not 
 that in this corpus the practice effectively does not exist yet, including in the places most likely to have
 invented it.
 
-This does not weaken the enforcement finding above. It generalises the precondition for it: a gate can only
+This does not weaken the enforcement finding above. It generalizes the precondition for it: a gate can only
 enforce a rule that someone has written, and almost nobody has written one.
 
 ### Limits on this section
 
 - garak is a single repository and its subject is AI security, so its contributors are unusually likely to be
-  thinking about AI provenance. It is a favourable case for policy, not a random one, which makes the 8.7%
+  thinking about AI provenance. It is a favorable case for policy, not a random one, which makes the 8.7%
   more striking rather than less.
 - The policy scan is pattern-matching over five filenames. A rule stated in a wiki, a PR template or a
   CODEOWNERS convention would be missed. The zero should be read as "no policy in the conventional locations",
@@ -368,7 +389,7 @@ positive, empty where nobody has checked. The headline figure of 5 counts `verif
 
 ## Why we published this
 
-We sell an assessment that measures this properly, inside a company's own estate and under authorised access.
+We sell an assessment that measures this properly, inside a company's own estate and under authorized access.
 It would be inconsistent to sell a measurement while keeping the method private. Everything here is checkable,
 including the parts that did not work.
 

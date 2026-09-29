@@ -29,6 +29,7 @@ Usage:  python3 independence.py
 """
 import collections
 import json
+import random
 
 EXCLUDE_ORGS = {"plaidev"}  # Tokyo CX company, mislabeled as fintech. See correction (ii).
 
@@ -64,7 +65,7 @@ for seg in sorted({r["seg"] for r in rows}):
     u = [r for r in s if not r.get("humanApproved")]
     if not s:
         continue
-    print(f"  {seg:<10} {len(s):>5,} signalled   {len(u):>5,} unapproved   {100 * len(u) / len(s):.0f}%")
+    print(f"  {seg:<10} {len(s):>5,} signalled   {len(u):>5,} unapproved   {100 * len(u) / len(s):.1f}%")
 
 # The same cut for everything merged, signal or not, so a reader can see whether
 # signalled pull requests are approved any differently from the rest. They are
@@ -88,3 +89,76 @@ for r in signalled:
 for q in sorted(by):
     total, un = by[q]
     print(f"  {q}   {un:>4} / {total:<5} unapproved   {100 * un / total:.0f}%")
+
+# The signalled rate on its own is a subset rate, not a finding. The comparison
+# that matters is against the pull requests that carried no signal, and that
+# gap has to be tested at the repository level, because approval practice is a
+# property of a repository, not of a pull request.
+print("\nSIGNALLED AGAINST UNSIGNALLED")
+unsig = [r for r in rows if not r.get("anySig")]
+unsig_un = [r for r in unsig if not r.get("humanApproved")]
+rate_sig = 100 * len(unapproved) / len(signalled)
+rate_unsig = 100 * len(unsig_un) / len(unsig)
+print(f"  signalled     {len(unapproved):>6,} / {len(signalled):<6,} ({rate_sig:.1f}%)")
+print(f"  unsignalled   {len(unsig_un):>6,} / {len(unsig):<6,} ({rate_unsig:.1f}%)")
+print(f"  gap                                {rate_sig - rate_unsig:+.2f} percentage points")
+zero = [r for r in unapproved if r.get("nApprovals", 0) == 0]
+print(
+    f"  of the {len(unapproved)} signalled PRs without independent approval, "
+    f"{len(zero)} had no approving review of any kind"
+)
+
+print("\nBASELINE BY SEGMENT, all merged PRs regardless of signal")
+for seg in sorted({r["seg"] for r in rows}):
+    s = [r for r in rows if r["seg"] == seg]
+    u = [r for r in s if not r.get("humanApproved")]
+    print(f"  {seg:<10} {len(u):>5,} / {len(s):<6,} ({100 * len(u) / len(s):.1f}%)")
+
+# Repository-clustered bootstrap of the gap. Resample the repositories with
+# replacement, keep every pull request of each drawn repository, recompute the
+# gap, and read the 2.5th and 97.5th percentiles. The seed is fixed so the
+# interval printed here is the interval quoted in the README.
+by_repo = collections.defaultdict(list)
+for r in rows:
+    by_repo[r["repo"]].append(r)
+repos = sorted(by_repo)
+
+
+def gap(sample):
+    s = su = u = uu = 0
+    for k in sample:
+        for r in by_repo[k]:
+            if r.get("anySig"):
+                s += 1
+                su += not r.get("humanApproved")
+            else:
+                u += 1
+                uu += not r.get("humanApproved")
+    return 100 * su / s - 100 * uu / u
+
+
+RESAMPLES, SEED = 2000, 0
+rng = random.Random(SEED)
+gaps = sorted(gap([rng.choice(repos) for _ in repos]) for _ in range(RESAMPLES))
+lo, hi = gaps[int(0.025 * RESAMPLES)], gaps[int(0.975 * RESAMPLES)]
+print(f"\nREPOSITORY-CLUSTERED BOOTSTRAP OF THE GAP ({RESAMPLES:,} resamples of {len(repos)} repos, seed {SEED})")
+print(f"  95% interval   [{lo:+.1f}, {hi:+.1f}] percentage points")
+print(f"  resamples at or below zero   {100 * sum(g <= 0 for g in gaps) / RESAMPLES:.1f}%")
+
+print("\nCONCENTRATION: organizations supplying the most signalled PRs without independent approval")
+for o, n in collections.Counter(org(r) for r in unapproved).most_common(3):
+    n_repos = len({r["repo"] for r in unapproved if org(r) == o})
+    print(f"  {o:<22} {n:>4} of {len(unapproved)}   across {n_repos} repos")
+
+# Where review is practiced at all, the two rates converge. "Practiced" here
+# means at least half of the repository's merged pull requests had an
+# independent approval.
+reviewed = {k for k, v in by_repo.items() if sum(bool(r.get("humanApproved")) for r in v) / len(v) >= 0.5}
+rs = [r for r in rows if r["repo"] in reviewed]
+r_sig = [r for r in rs if r.get("anySig")]
+r_unsig = [r for r in rs if not r.get("anySig")]
+r_sig_un = [r for r in r_sig if not r.get("humanApproved")]
+r_unsig_un = [r for r in r_unsig if not r.get("humanApproved")]
+print(f"\nREPOS WHERE AT LEAST HALF OF MERGED PRS HAD INDEPENDENT APPROVAL: {len(reviewed)} of {len(repos)}, {len(rs):,} PRs")
+print(f"  signalled     {len(r_sig_un):>5} / {len(r_sig):<6,} ({100 * len(r_sig_un) / len(r_sig):.1f}%)")
+print(f"  unsignalled   {len(r_unsig_un):>5} / {len(r_unsig):<6,} ({100 * len(r_unsig_un) / len(r_unsig):.1f}%)")
