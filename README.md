@@ -90,7 +90,7 @@ series on a defeasible signal and we do not think it supports a trend claim.
 
 ### Signal distribution
 
-Signal instances across the 1,243 signalled pull requests (a pull request can carry more than one
+Signal instances across the 1,243 signaled pull requests (a pull request can carry more than one
 signal; 146 do), recomputed from `scan2.jsonl`:
 
 | Signal | Instances | | Signal | Instances |
@@ -102,7 +102,7 @@ signal; 146 do), recomputed from `scan2.jsonl`:
 | `claude_generated` | 73 | | | |
 
 1,398 instances in total. The earlier version of this table was computed from the first scan and
-summed to 961; it did not reconcile with the 1,243 signalled pull requests reported below, and has been
+summed to 961; it did not reconcile with the 1,243 signaled pull requests reported below, and has been
 replaced. Run `python3 independence.py` to reproduce these counts.
 
 
@@ -111,7 +111,7 @@ measurement independently of how much agent code is actually written.
 
 ---
 
-## Independence: who approved the signalled pull requests
+## Independence: who approved the signaled pull requests
 
 The rest of this study asks a disclosure question. This asks a separate one, using the `humanApproved`
 field defined above: of the merged pull requests that did carry an agent-authorship signal, how many were
@@ -132,9 +132,9 @@ does not record as a review: a change ticket, a merge queue, a CODEOWNERS rule e
 This measurement cannot see those, so read 24.2% as the share of merges for which GitHub alone holds no
 independent approval, not as the share that went unreviewed.
 
-### The signalled subset: 33.0%, and not measurably different
+### The signaled subset: 33.0%, and not measurably different
 
-| | Signalled PRs | No independent approval | Rate | All merged PRs in the segment |
+| | Signaled PRs | No independent approval | Rate | All merged PRs in the segment |
 |---|---|---|---|---|
 | **All** | **1,243** | **410** | **33.0%** | 24.2% |
 | Fintech | 875 | 280 | 32.0% | 20.4% |
@@ -142,25 +142,24 @@ independent approval, not as the share that went unreviewed.
 
 409 of the 410 had no approving review of any kind; one had an approval from the author or a bot.
 
-The 10,291 pull requests that carried no signal had a rate of 23.1% (2,379). The signalled rate is 9.9
+The 10,291 pull requests that carried no signal had a rate of 23.1% (2,379). The signaled rate is 9.9
 percentage points higher, and we do not claim that gap is real:
 
 - A repository-clustered bootstrap (2,000 resamples of the 501 repositories, seed fixed in `independence.py`)
   puts the 95% interval for the gap at [-1.2, +20.6] percentage points. Approval practice is a property of a
   repository, not of a pull request, so this is the interval that matters, and it crosses zero.
-- The 410 are concentrated: 154 of them sit in the 19 developer sample and quickstart repositories of a single
-  organization (the script names it).
+- The 410 are concentrated: 154 of them come from 19 repositories of a single organization, most of them its developer quickstarts, sample and pattern apps (the script names it).
 - In the 353 repositories where at least half of merged pull requests had an independent approval, the two
-  rates converge: 37 of 818 signalled (4.5%) and 366 of 7,846 unsignalled (4.7%).
+  rates converge: 37 of 818 signaled (4.5%) and 366 of 7,846 unsignaled (4.7%).
 
 **The finding is not that agent-authored work is reviewed more carelessly than everything else.** It is that a
 quarter of merged pull requests in this corpus carried no independent approval GitHub can show, that the
 disclosed-agent subset is not measurably different, and that on the 10,291 pull requests with no signal, nobody
 can tell whether an agent was involved at all. That last point is the one this whole repository exists for.
 
-### By quarter, signalled pull requests only
+### By quarter, signaled pull requests only
 
-| Quarter | No independent approval | Signalled PRs | Rate |
+| Quarter | No independent approval | Signaled PRs | Rate |
 |---|---|---|---|
 | 2025Q3 | 0 | 11 | 0% |
 | 2025Q4 | 4 | 44 | 9% |
@@ -168,7 +167,7 @@ can tell whether an agent was involved at all. That last point is the one this w
 | 2026Q2 | 201 | 520 | 39% |
 | 2026Q3 | 140 | 506 | 28% |
 
-The early quarters carry too few signalled pull requests to read a trend into, and the denominators are given
+The early quarters carry too few signaled pull requests to read a trend into, and the denominators are given
 so that is visible rather than hidden behind a percentage.
 
 ### What this measure is, exactly

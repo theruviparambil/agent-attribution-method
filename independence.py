@@ -49,26 +49,26 @@ print(
 )
 print(f"CORPUS: {len(rows):,} merged PRs across {len(set(r['repo'] for r in rows))} repositories\n")
 
-signalled = [r for r in rows if r.get("anySig")]
-unapproved = [r for r in signalled if not r.get("humanApproved")]
+signaled = [r for r in rows if r.get("anySig")]
+unapproved = [r for r in signaled if not r.get("humanApproved")]
 
-print("SIGNALLED PULL REQUESTS AND THEIR APPROVALS")
-print(f"  carried an agent-authorship signal      {len(signalled):>6,}")
+print("SIGNALED PULL REQUESTS AND THEIR APPROVALS")
+print(f"  carried an agent-authorship signal      {len(signaled):>6,}")
 print(
     f"  of those, no independent human approval {len(unapproved):>6,}"
-    f"   ({100 * len(unapproved) / len(signalled):.1f}%)\n"
+    f"   ({100 * len(unapproved) / len(signaled):.1f}%)\n"
 )
 
 print("BY SEGMENT")
 for seg in sorted({r["seg"] for r in rows}):
-    s = [r for r in signalled if r["seg"] == seg]
+    s = [r for r in signaled if r["seg"] == seg]
     u = [r for r in s if not r.get("humanApproved")]
     if not s:
         continue
-    print(f"  {seg:<10} {len(s):>5,} signalled   {len(u):>5,} unapproved   {100 * len(u) / len(s):.1f}%")
+    print(f"  {seg:<10} {len(s):>5,} signaled   {len(u):>5,} unapproved   {100 * len(u) / len(s):.1f}%")
 
 # The same cut for everything merged, signal or not, so a reader can see whether
-# signalled pull requests are approved any differently from the rest. They are
+# signaled pull requests are approved any differently from the rest. They are
 # not, which is the honest finding: this is not a story about agent work being
 # treated worse, it is a story about the control being weak generally and
 # nobody being able to see which changes an agent touched.
@@ -79,9 +79,9 @@ print(
     f"   ({100 * len(allun) / len(rows):.1f}% of {len(rows):,})"
 )
 
-print("\nBY QUARTER, signalled PRs only")
+print("\nBY QUARTER, signaled PRs only")
 by = collections.defaultdict(lambda: [0, 0])
-for r in signalled:
+for r in signaled:
     q = f"{r['month'][:4]}Q{(int(r['month'][5:7]) - 1) // 3 + 1}"
     by[q][0] += 1
     if not r.get("humanApproved"):
@@ -90,21 +90,21 @@ for q in sorted(by):
     total, un = by[q]
     print(f"  {q}   {un:>4} / {total:<5} unapproved   {100 * un / total:.0f}%")
 
-# The signalled rate on its own is a subset rate, not a finding. The comparison
+# The signaled rate on its own is a subset rate, not a finding. The comparison
 # that matters is against the pull requests that carried no signal, and that
 # gap has to be tested at the repository level, because approval practice is a
 # property of a repository, not of a pull request.
-print("\nSIGNALLED AGAINST UNSIGNALLED")
+print("\nSIGNALED AGAINST UNSIGNALED")
 unsig = [r for r in rows if not r.get("anySig")]
 unsig_un = [r for r in unsig if not r.get("humanApproved")]
-rate_sig = 100 * len(unapproved) / len(signalled)
+rate_sig = 100 * len(unapproved) / len(signaled)
 rate_unsig = 100 * len(unsig_un) / len(unsig)
-print(f"  signalled     {len(unapproved):>6,} / {len(signalled):<6,} ({rate_sig:.1f}%)")
-print(f"  unsignalled   {len(unsig_un):>6,} / {len(unsig):<6,} ({rate_unsig:.1f}%)")
+print(f"  signaled     {len(unapproved):>6,} / {len(signaled):<6,} ({rate_sig:.1f}%)")
+print(f"  unsignaled   {len(unsig_un):>6,} / {len(unsig):<6,} ({rate_unsig:.1f}%)")
 print(f"  gap                                {rate_sig - rate_unsig:+.2f} percentage points")
 zero = [r for r in unapproved if r.get("nApprovals", 0) == 0]
 print(
-    f"  of the {len(unapproved)} signalled PRs without independent approval, "
+    f"  of the {len(unapproved)} signaled PRs without independent approval, "
     f"{len(zero)} had no approving review of any kind"
 )
 
@@ -145,7 +145,7 @@ print(f"\nREPOSITORY-CLUSTERED BOOTSTRAP OF THE GAP ({RESAMPLES:,} resamples of 
 print(f"  95% interval   [{lo:+.1f}, {hi:+.1f}] percentage points")
 print(f"  resamples at or below zero   {100 * sum(g <= 0 for g in gaps) / RESAMPLES:.1f}%")
 
-print("\nCONCENTRATION: organizations supplying the most signalled PRs without independent approval")
+print("\nCONCENTRATION: organizations supplying the most signaled PRs without independent approval")
 for o, n in collections.Counter(org(r) for r in unapproved).most_common(3):
     n_repos = len({r["repo"] for r in unapproved if org(r) == o})
     print(f"  {o:<22} {n:>4} of {len(unapproved)}   across {n_repos} repos")
@@ -160,5 +160,5 @@ r_unsig = [r for r in rs if not r.get("anySig")]
 r_sig_un = [r for r in r_sig if not r.get("humanApproved")]
 r_unsig_un = [r for r in r_unsig if not r.get("humanApproved")]
 print(f"\nREPOS WHERE AT LEAST HALF OF MERGED PRS HAD INDEPENDENT APPROVAL: {len(reviewed)} of {len(repos)}, {len(rs):,} PRs")
-print(f"  signalled     {len(r_sig_un):>5} / {len(r_sig):<6,} ({100 * len(r_sig_un) / len(r_sig):.1f}%)")
-print(f"  unsignalled   {len(r_unsig_un):>5} / {len(r_unsig):<6,} ({100 * len(r_unsig_un) / len(r_unsig):.1f}%)")
+print(f"  signaled     {len(r_sig_un):>5} / {len(r_sig):<6,} ({100 * len(r_sig_un) / len(r_sig):.1f}%)")
+print(f"  unsignaled   {len(r_unsig_un):>5} / {len(r_unsig):<6,} ({100 * len(r_unsig_un) / len(r_unsig):.1f}%)")
